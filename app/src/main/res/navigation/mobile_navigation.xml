@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_exercises">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.uwe.fitnessapp.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_plans"
+        android:name="com.uwe.fitnessapp.ui.plans.PlansFragment"
+        android:label="@string/title_plans"
+        tools:layout="@layout/fragment_plans" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.uwe.fitnessapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_log"
+        android:name="com.uwe.fitnessapp.ui.log.LogFragment"
+        android:label="@string/title_log"
+        tools:layout="@layout/fragment_log" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.uwe.fitnessapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_exercises"
+        android:name="com.uwe.fitnessapp.ui.exercises.ExercisesFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercises" />
     <fragment
         android:id="@+id/navigation_tools"
         android:name="com.uwe.fitnessapp.ui.tools.ToolsFragment"
