@@ -22,4 +22,9 @@
         android:name="com.uwe.fitnessapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_tools"
+        android:name="com.uwe.fitnessapp.ui.tools.ToolsFragment"
+        android:label="@string/title_tools"
+        tools:layout="@layout/fragment_tools" />
 </navigation>
