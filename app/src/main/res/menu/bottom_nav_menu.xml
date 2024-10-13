@@ -2,20 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_exercises"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_exercise_black_24dp"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_exercises" />
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_plans"
         android:icon="@drawable/ic_checklist_black_24dp"
-        android:title="@string/title_home" />
+        android:title="@string/title_plans" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_log"
         android:icon="@drawable/ic_calendar_clock_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:title="@string/title_log" />
 
     <item
         android:id="@+id/navigation_tools"

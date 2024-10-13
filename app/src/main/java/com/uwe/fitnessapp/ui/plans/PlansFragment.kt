@@ -1,4 +1,4 @@
-package com.uwe.fitnessapp.ui.home
+package com.uwe.fitnessapp.ui.plans
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.uwe.fitnessapp.databinding.FragmentHomeBinding
+import com.uwe.fitnessapp.databinding.FragmentPlansBinding
 
-class HomeFragment : Fragment() {
+class PlansFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentPlansBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val plansViewModel =
+            ViewModelProvider(this).get(PlansViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentPlansBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textPlans
+        plansViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
