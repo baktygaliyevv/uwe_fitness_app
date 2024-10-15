@@ -27,4 +27,22 @@
         android:name="com.uwe.fitnessapp.ui.tools.ToolsFragment"
         android:label="@string/title_tools"
         tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/navigation_bmi"
+        android:name="com.uwe.fitnessapp.ui.tools.components.bmi.BMIFragment"
+        android:label="BMI"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_calories"
+        android:name="com.uwe.fitnessapp.ui.tools.components.calories.CaloriesFragment"
+        android:label="Calories"
+        tools:layout="@layout/fragment_calories" />
+
+    <fragment
+        android:id="@+id/navigation_heart_rate"
+        android:name="com.uwe.fitnessapp.ui.tools.components.heartrate.HeartRateFragment"
+        android:label="Resting Heart Rate"
+        tools:layout="@layout/fragment_heart_rate" />
+
 </navigation>
