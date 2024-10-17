@@ -11,27 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center"
         android:padding="16dp">
 
-        <Button
-            android:id="@+id/btn_bmi"
+        <LinearLayout
+            android:id="@+id/cards_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BMI"/>
+            android:orientation="vertical" />
 
-        <Button
-            android:id="@+id/btn_calories"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Calories"
-            android:layout_marginTop="16dp"/>
-
-        <Button
-            android:id="@+id/btn_heart_rate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resting Heart Rate"
-            android:layout_marginTop="16dp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
