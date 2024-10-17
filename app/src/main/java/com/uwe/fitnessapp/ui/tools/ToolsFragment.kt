@@ -27,11 +27,6 @@ class ToolsFragment : Fragment() {
         _binding = FragmentToolsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textTools
-        toolsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-
         binding.btnBmi.setOnClickListener {
             findNavController().navigate(R.id.navigation_bmi)
         }
