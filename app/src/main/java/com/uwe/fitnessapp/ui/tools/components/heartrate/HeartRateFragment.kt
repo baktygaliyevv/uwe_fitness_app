@@ -15,9 +15,24 @@ class HeartRateFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentHeartRateBinding.inflate(inflater, container, false)
+
+        binding.calculateButton.setOnClickListener {
+            calculateHeartRate()
+        }
+
         return binding.root
+    }
+
+    private fun calculateHeartRate() {
+        val ageText = binding.ageInput.text.toString()
+        if (ageText.isNotEmpty()) {
+            val age = ageText.toInt()
+
+            val maxHeartRate = 220 - age
+
+        }
     }
 
     override fun onDestroyView() {
