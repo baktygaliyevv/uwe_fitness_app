@@ -7,7 +7,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.databinding.ActivityMainBinding
+import com.uwe.fitnessapp.models.ExercisesGroup
+import com.uwe.fitnessapp.utils.ReadJSON
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +19,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val exercisesJson = ReadJSON(baseContext, "exercises.json")
+        val exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<List<ExercisesGroup>>() {})
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
