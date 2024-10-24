@@ -24,9 +24,35 @@
         android:text="Calculate"
         android:layout_gravity="center_horizontal" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/heartRateTable"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/targetZone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Zone"
+            android:textAppearance="?attr/textAppearanceBody1" />
+
+        <TextView
+            android:id="@+id/intensity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Intensity"
+            android:textAppearance="?attr/textAppearanceBody1" />
+
+        <TextView
+            android:id="@+id/thrRange"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THR"
+            android:textAppearance="?attr/textAppearanceBody1" />
+    </LinearLayout>
 </LinearLayout>
