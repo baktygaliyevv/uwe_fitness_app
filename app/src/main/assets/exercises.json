@@ -1,0 +1,16 @@
+[
+  {
+    "type": "Abs",
+    "exercises": [
+      {
+        "name": "Incline Bench Sit-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris.",
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png"
+        ]
+      }
+    ]
+  }
+]
