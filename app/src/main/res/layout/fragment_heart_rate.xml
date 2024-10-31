@@ -6,6 +6,7 @@
     android:padding="16dp">
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ageInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Age">
@@ -55,4 +56,9 @@
             android:text="THR"
             android:textAppearance="?attr/textAppearanceBody1" />
     </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/heartRateTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
