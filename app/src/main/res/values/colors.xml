@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="max_zone_color">#D2293D</color>
+    <color name="hard_zone_color">#F57C00</color>
+    <color name="moderate_zone_color">#FFA726</color>
+    <color name="light_zone_color">#FFCC80</color>
+    <color name="very_light_zone_color">#FFE0B2</color>
+    <color name="default_zone_color">#E0E0E0</color>
 </resources>
