@@ -4,4 +4,6 @@
     <string name="title_log">Log</string>
     <string name="title_exercises">Exercises</string>
     <string name="title_tools">Tools</string>
+    <string name="exercises_card_image_alt">Image</string>
+    <string name="exercises_card_action">View</string>
 </resources>

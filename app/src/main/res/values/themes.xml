@@ -12,6 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Action bar color -->
-        <item name="colorSurface">?attr/colorPrimary</item>
+        <item name="colorSurface">?attr/colorOnPrimary</item>
     </style>
 </resources>
