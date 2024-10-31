@@ -42,27 +42,27 @@ class HeartRateFragment : Fragment() {
 
                     val zones = listOf(
                         HeartRateZone(
-                            "Maximum VO2 Max Zone",
+                            "Maximum\nVO2 Max Zone",
                             "90% - 100%",
                             "${(maxHeartRate * 0.9).toInt()} - ${maxHeartRate}"
                         ),
                         HeartRateZone(
-                            "Hard Anaerobic Zone",
+                            "Hard\nAnaerobic Zone",
                             "80% - 90%",
                             "${(maxHeartRate * 0.8).toInt()} - ${(maxHeartRate * 0.9).toInt()}"
                         ),
                         HeartRateZone(
-                            "Moderate Aerobic Zone",
+                            "Moderate\nAerobic Zone",
                             "70% - 80%",
                             "${(maxHeartRate * 0.7).toInt()} - ${(maxHeartRate * 0.8).toInt()}"
                         ),
                         HeartRateZone(
-                            "Light Fat Burn Zone",
+                            "Light\nFat Burn Zone",
                             "60% - 70%",
                             "${(maxHeartRate * 0.6).toInt()} - ${(maxHeartRate * 0.7).toInt()}"
                         ),
                         HeartRateZone(
-                            "Very Light Warm Up Zone",
+                            "Very Light\nWarm Up Zone",
                             "50% - 60%",
                             "${(maxHeartRate * 0.5).toInt()} - ${(maxHeartRate * 0.6).toInt()}"
                         )

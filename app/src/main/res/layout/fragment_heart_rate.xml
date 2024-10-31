@@ -37,7 +37,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Zone"
+            android:text="Target Zone"
+            android:gravity="center"
             android:textAppearance="?attr/textAppearanceBody1" />
 
         <TextView
@@ -46,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Intensity"
+            android:gravity="center"
             android:textAppearance="?attr/textAppearanceBody1" />
 
         <TextView
@@ -53,9 +55,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="THR"
+            android:text="THR in bpm"
+            android:gravity="center"
             android:textAppearance="?attr/textAppearanceBody1" />
     </LinearLayout>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/heartRateTable"
         android:layout_width="match_parent"
