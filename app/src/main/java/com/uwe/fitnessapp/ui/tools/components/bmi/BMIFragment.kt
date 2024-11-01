@@ -1,11 +1,12 @@
 package com.uwe.fitnessapp.ui.tools.components.bmi
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.github.anastr.speedviewlib.SpeedView
 import com.uwe.fitnessapp.databinding.FragmentBmiBinding
 import kotlin.math.pow
 
@@ -13,12 +14,18 @@ class BMIFragment : Fragment() {
 
     private var _binding: FragmentBmiBinding? = null
     private val binding get() = _binding!!
+    private lateinit var bmiGauge: SpeedView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentBmiBinding.inflate(inflater, container, false)
+
+        bmiGauge = binding.bmiGauge
+
+        bmiGauge.maxSpeed = 40f
+
         binding.calculateButton.setOnClickListener {
             calculateBMI()
         }
@@ -67,7 +74,6 @@ class BMIFragment : Fragment() {
             }
 
             val bmi = weight / (height.pow(2))
-
             displayBMIResult(bmi)
 
         } catch (e: NumberFormatException) {
@@ -78,11 +84,13 @@ class BMIFragment : Fragment() {
     }
 
     private fun displayBMIResult(bmi: Float) {
-        val bmiCategory = when {
-            bmi < 18.5 -> "Underweight"
-            bmi < 24.9 -> "Normal weight"
-            bmi < 29.9 -> "Overweight"
-            else -> "Obesity"
+        bmiGauge.speedTo(bmi)
+
+        val (color, bmiCategory) = when {
+            bmi < 18.5 -> Color.YELLOW to "Underweight"
+            bmi < 24.9 -> Color.GREEN to "Normal weight"
+            bmi < 29.9 -> Color.YELLOW to "Overweight"
+            else -> Color.RED to "Obesity"
         }
 
         val result = "BMI = %.1f kg/m² (%s)".format(bmi, bmiCategory)
@@ -94,6 +102,4 @@ class BMIFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
-
-
 }

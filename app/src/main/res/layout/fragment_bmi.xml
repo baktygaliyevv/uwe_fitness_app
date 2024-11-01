@@ -65,6 +65,17 @@
             android:text="Calculate"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp" />
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/bmiGauge"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:sv_unit="BMI"
+            app:sv_tickNumber="4"
+            app:sv_maxSpeed="40"
+            app:sv_minSpeed="10"
+            android:layout_marginTop="16dp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
