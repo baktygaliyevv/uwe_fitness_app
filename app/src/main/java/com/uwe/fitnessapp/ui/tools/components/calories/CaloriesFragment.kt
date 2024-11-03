@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.uwe.fitnessapp.databinding.FragmentCaloriesBinding
 import android.widget.ArrayAdapter
-import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import kotlin.math.roundToInt
 
 class CaloriesFragment : Fragment() {
 
@@ -113,8 +114,25 @@ class CaloriesFragment : Fragment() {
         }
 
         val totalCalories = baseCalories * activityFactor
+        val calorieGoals = listOf(
+            CalorieGoal("Maintain weight", totalCalories.roundToInt()),
+            CalorieGoal("Mild weight loss\n0.25 kg/week", (totalCalories * 0.9).roundToInt()),
+            CalorieGoal("Weight loss\n" +
+                    "0.5 kg/week", (totalCalories * 0.8).roundToInt()),
+            CalorieGoal("Extreme weight loss\n" +
+                    "1 kg/week", (totalCalories * 0.7).roundToInt()),
+            CalorieGoal("Mild weight gain\n0.25 kg/week", (totalCalories * 1.1).roundToInt()),
+            CalorieGoal("Weight gain\n" +
+                    "0.5 kg/week", (totalCalories * 1.19).roundToInt()),
+            CalorieGoal("Fast weight gain\n" +
+                    "1 kg/week", (totalCalories * 1.39).roundToInt())
+        )
 
-        Toast.makeText(requireContext(), "Daily calories needed: ${totalCalories.toInt()}", Toast.LENGTH_LONG).show()
+        binding.calorieGoalsRecyclerView.apply {
+            layoutManager = LinearLayoutManager(context)
+            visibility = View.VISIBLE
+            adapter = CaloriesGoalAdapter(calorieGoals)
+        }
     }
 
 

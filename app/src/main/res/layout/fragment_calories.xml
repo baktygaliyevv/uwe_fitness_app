@@ -106,5 +106,13 @@
             android:text="Calculate"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp" />
+
+        <!-- Table -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/calorieGoalsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
