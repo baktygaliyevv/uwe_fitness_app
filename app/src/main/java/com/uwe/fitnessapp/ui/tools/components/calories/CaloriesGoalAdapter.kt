@@ -26,7 +26,7 @@ class CaloriesGoalAdapter(private val calorieGoals: List<CalorieGoal>) :
     override fun onBindViewHolder(holder: CalorieGoalViewHolder, position: Int) {
         val goal = calorieGoals[position]
         holder.description.text = goal.description
-        holder.value.text = goal.value.toString()
+        holder.value.text = "${goal.value} calories"
     }
 
     override fun getItemCount(): Int = calorieGoals.size
