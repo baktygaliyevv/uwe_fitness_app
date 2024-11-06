@@ -1,5 +1,7 @@
 [versions]
 agp = "8.7.0"
+githubSpeedviewlib = "1.6.1"
+githubSpeedviewlibVersion = "1.6.1"
 gson = "2.10.1"
 kotlin = "1.9.24"
 coreKtx = "1.13.1"
@@ -13,6 +15,9 @@ lifecycleLivedataKtx = "2.6.1"
 lifecycleViewmodelKtx = "2.6.1"
 navigationFragmentKtx = "2.8.2"
 navigationUiKtx = "2.8.2"
+speedometerAndroid = "1.0.0-ALPHA02"
+speedviewlib = "1.5.5"
+speedviewlibVersion = "1.5.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -27,6 +32,9 @@ androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecy
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+speedometer-android = { module = "com.github.anastr:speedometer-android", version.ref = "speedometerAndroid" }
+speedviewlib = { module = "com.github.anastr:speedviewlib", version.ref = "speedviewlib" }
+speedviewlib-v161 = { module = "com.github.anastr:speedviewlib", version.ref = "githubSpeedviewlibVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
