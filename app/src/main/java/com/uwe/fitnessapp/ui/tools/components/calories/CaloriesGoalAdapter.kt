@@ -6,8 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.uwe.fitnessapp.R
-
-data class CalorieGoal(val description: String, val value: Int)
+import com.uwe.fitnessapp.models.CalorieGoal
 
 class CaloriesGoalAdapter(private val calorieGoals: List<CalorieGoal>) :
     RecyclerView.Adapter<CaloriesGoalAdapter.CalorieGoalViewHolder>() {
