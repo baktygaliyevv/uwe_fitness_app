@@ -67,17 +67,6 @@
             android:layout_marginTop="16dp" />
 
         <!-- Gauge -->
-<!--        <com.github.anastr.speedviewlib.SpeedView-->
-<!--            android:id="@+id/bmiGauge"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="200dp"-->
-<!--            app:sv_unit=""-->
-<!--            app:sv_minSpeed="0"-->
-<!--            app:sv_maxSpeed="50"-->
-<!--            app:sv_indicator="NeedleIndicator"-->
-<!--            app:sv_indicatorWidth="16dp"-->
-<!--            app:sv_indicatorColor="@android:color/black"-->
-<!--            android:layout_marginTop="8dp" />-->
         <com.github.anastr.speedviewlib.SpeedView
             android:id="@+id/bmiGauge"
             android:layout_width="300dp"
