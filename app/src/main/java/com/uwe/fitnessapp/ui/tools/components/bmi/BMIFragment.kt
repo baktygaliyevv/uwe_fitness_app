@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.github.anastr.speedviewlib.SpeedView
+import com.github.anastr.speedviewlib.components.Section
 import com.uwe.fitnessapp.databinding.FragmentBmiBinding
 import kotlin.math.pow
 
@@ -23,9 +24,23 @@ class BMIFragment : Fragment() {
         _binding = FragmentBmiBinding.inflate(inflater, container, false)
 
         bmiGauge = binding.bmiGauge
-
         bmiGauge.maxSpeed = 40f
         bmiGauge.withTremble = false
+        bmiGauge.setStartDegree(180)
+        bmiGauge.setEndDegree(360)
+        bmiGauge.clearSections()
+        val sectionWidth = 110f
+        bmiGauge.addSections(
+            Section(0f, 0.16f, Color.parseColor("#FF5722"), sectionWidth),   // Severe Thinness
+            Section(0.16f, 0.20f, Color.parseColor("#FF9800"), sectionWidth), // Moderate Thinness
+            Section(0.20f, 0.28f, Color.parseColor("#FFEB3B"), sectionWidth), // Mild Thinness
+            Section(0.28f, 0.6f, Color.parseColor("#4CAF50"), sectionWidth),  // Normal
+            Section(0.6f, 0.7f, Color.parseColor("#FFEB3B"), sectionWidth),   // Overweight
+            Section(0.7f, 0.8f, Color.parseColor("#FF9800"), sectionWidth),   // Obese Class I
+            Section(0.8f, 0.9f, Color.parseColor("#F44336"), sectionWidth),   // Obese Class II
+            Section(0.9f, 1f, Color.parseColor("#D32F2F"), sectionWidth)       // Obese Class III
+        )
+
         binding.calculateButton.setOnClickListener {
             calculateBMI()
         }
@@ -86,16 +101,19 @@ class BMIFragment : Fragment() {
     private fun displayBMIResult(bmi: Float) {
         bmiGauge.speedTo(bmi, 2000)
 
-        val (color, bmiCategory) = when {
-            bmi < 18.5 -> Color.YELLOW to "Underweight"
-            bmi < 24.9 -> Color.GREEN to "Normal weight"
-            bmi < 29.9 -> Color.YELLOW to "Overweight"
-            else -> Color.RED to "Obesity"
+        val bmiCategory = when {
+            bmi < 16 -> "Severe Thinness"
+            bmi < 17 -> "Moderate Thinness"
+            bmi < 18.5 -> "Mild Thinness"
+            bmi < 25 -> "Normal"
+            bmi < 30 -> "Overweight"
+            bmi < 35 -> "Obese Class I"
+            bmi < 40 -> "Obese Class II"
+            else -> "Obese Class III"
         }
 
-        val result = "BMI = %.1f kg/m² (%s)".format(bmi, bmiCategory)
-
-        println(result)
+        val resultText = "BMI = %.1f kg/m² (%s)".format(bmi, bmiCategory)
+        binding.bmiValueText.text = resultText
     }
 
     override fun onDestroyView() {
