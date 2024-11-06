@@ -66,6 +66,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp" />
 
+        <!-- Gauge -->
         <com.github.anastr.speedviewlib.SpeedView
             android:id="@+id/bmiGauge"
             android:layout_width="match_parent"

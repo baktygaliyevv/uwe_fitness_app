@@ -25,7 +25,7 @@ class BMIFragment : Fragment() {
         bmiGauge = binding.bmiGauge
 
         bmiGauge.maxSpeed = 40f
-
+        bmiGauge.withTremble = false
         binding.calculateButton.setOnClickListener {
             calculateBMI()
         }
@@ -84,7 +84,7 @@ class BMIFragment : Fragment() {
     }
 
     private fun displayBMIResult(bmi: Float) {
-        bmiGauge.speedTo(bmi)
+        bmiGauge.speedTo(bmi, 2000)
 
         val (color, bmiCategory) = when {
             bmi < 18.5 -> Color.YELLOW to "Underweight"

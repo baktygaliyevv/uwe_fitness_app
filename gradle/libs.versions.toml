@@ -1,6 +1,7 @@
 [versions]
 agp = "8.7.0"
 githubSpeedviewlib = "1.6.1"
+githubSpeedviewlibVersion = "1.6.1"
 gson = "2.10.1"
 kotlin = "1.9.24"
 coreKtx = "1.13.1"
@@ -33,6 +34,7 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 speedometer-android = { module = "com.github.anastr:speedometer-android", version.ref = "speedometerAndroid" }
 speedviewlib = { module = "com.github.anastr:speedviewlib", version.ref = "speedviewlib" }
+speedviewlib-v161 = { module = "com.github.anastr:speedviewlib", version.ref = "githubSpeedviewlibVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
