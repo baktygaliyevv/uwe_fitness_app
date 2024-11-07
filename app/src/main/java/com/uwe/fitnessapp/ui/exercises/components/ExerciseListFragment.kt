@@ -42,6 +42,7 @@ class ExerciseListFragment : Fragment() {
                 findNavController().navigate(R.id.navigation_exercises_exercise, Bundle().apply {
                     putString("label", exercise.name)
                     putStringArray("images", exercise.images.toTypedArray())
+                    putString("description", exercise.description)
                 })
             }
         }
