@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.uwe.fitnessapp.R
@@ -28,6 +29,8 @@ class ExerciseListFragment : Fragment() {
 
         val groupType = arguments?.getString("groupType")
 
+        (activity as? AppCompatActivity)?.supportActionBar?.title = groupType
+
         val exercisesJson = ReadJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
 
@@ -40,12 +43,12 @@ class ExerciseListFragment : Fragment() {
                     putString("label", exercise.name)
                     putStringArray("images", exercise.images.toTypedArray())
                 })
-
             }
         }
 
         return binding.root
     }
+
 
     private fun addCard(title: String, iconRes: Int, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)

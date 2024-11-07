@@ -14,7 +14,6 @@
     <fragment
         android:id="@+id/navigation_exercises_list"
         android:name="com.uwe.fitnessapp.ui.exercises.components.ExerciseListFragment"
-        android:label="@string/title_exercise_list"
         tools:layout="@layout/fragment_exercise_list">
         <argument
             android:name="groupLabel"
