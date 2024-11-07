@@ -1,4 +1,4 @@
-package com.uwe.fitnessapp.ui.exercises
+package com.uwe.fitnessapp.ui.exercises.components
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,45 +8,43 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.uwe.fitnessapp.R
+import com.uwe.fitnessapp.databinding.FragmentExerciseListBinding
+import com.uwe.fitnessapp.models.ExercisesGroup
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.uwe.fitnessapp.R
-import com.uwe.fitnessapp.databinding.FragmentExercisesBinding
-import com.uwe.fitnessapp.models.ExercisesGroup
 import com.uwe.fitnessapp.utils.ReadJSON
 
-class ExercisesFragment : Fragment() {
+class ExerciseListFragment : Fragment() {
 
-    private var _binding: FragmentExercisesBinding? = null
+    private var _binding: FragmentExerciseListBinding? = null
+    private val binding get() = _binding!!
     private lateinit var exercisesData: ArrayList<ExercisesGroup?>
 
-    // This property is only valid between onCreateView and onDestroyView.
-    private val binding get() = _binding!!
-
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
+        _binding = FragmentExerciseListBinding.inflate(inflater, container, false)
+
+        val groupType = arguments?.getString("groupType")
+
         val exercisesJson = ReadJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
 
-        _binding = FragmentExercisesBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        val selectedGroup = exercisesData.find { it?.type == groupType }
 
-        for (group in exercisesData) {
-            val drawableResourceId: Int = resources.getIdentifier(group!!.image, "drawable", activity?.packageName)
-            addCard(group.type, drawableResourceId) {
-                findNavController().navigate(R.id.navigation_exercises_list, Bundle().apply {
-                    putString("groupType", group.type)
+        selectedGroup?.exercises?.forEach { exercise ->
+            val drawableResourceId: Int = resources.getIdentifier(exercise.images[0], "drawable", activity?.packageName)
+            addCard(exercise.name, drawableResourceId) {
+                findNavController().navigate(R.id.navigation_exercises_exercise, Bundle().apply {
+                    putString("label", exercise.name)
+                    putStringArray("images", exercise.images.toTypedArray())
                 })
+
             }
         }
 
-
-        return root
+        return binding.root
     }
 
     private fun addCard(title: String, iconRes: Int, onClickAction: () -> Unit) {

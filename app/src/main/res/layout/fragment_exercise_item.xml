@@ -14,15 +14,15 @@
         android:orientation="horizontal"
         android:padding="16dp"
     >
+
         <ImageView
             android:id="@+id/exerciseItemImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_marginEnd="16dp"
-            app:srcCompat="@drawable/flatbenchlyinglegraise5"
-            android:scaleType="centerCrop"
             android:contentDescription="@string/exercises_card_image_alt"
-        />
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/flatbenchlyinglegraise5" />
 
         <LinearLayout
             android:layout_width="0dp"

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-parcelize")
 }
 
 android {
@@ -53,4 +54,5 @@ dependencies {
     implementation(libs.gson)
     implementation (libs.material.v130)
     implementation (libs.speedviewlib.v161)
+    implementation(libs.glide)
 }

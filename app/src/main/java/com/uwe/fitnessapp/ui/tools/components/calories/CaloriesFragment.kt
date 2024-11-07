@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.uwe.fitnessapp.databinding.FragmentCaloriesBinding
 import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.uwe.fitnessapp.models.CalorieGoal
 import kotlin.math.roundToInt
 
 class CaloriesFragment : Fragment() {

@@ -12,11 +12,18 @@ class ExerciseFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         _binding = FragmentExerciseBinding.inflate(inflater, container, false)
+
+        val images: Array<String>? = arguments?.getStringArray("images")
+
+        if (images != null) {
+            val viewPager = binding.viewPager
+            val adapter = ExerciseImageAdapter(images.toList())
+            viewPager.adapter = adapter
+        }
+
         return binding.root
     }
 

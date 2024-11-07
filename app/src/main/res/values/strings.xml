@@ -6,4 +6,5 @@
     <string name="title_tools">Tools</string>
     <string name="exercises_card_image_alt">Image</string>
     <string name="exercises_card_action">View</string>
+    <string name="title_exercise_list">title_exercise_list</string>
 </resources>
