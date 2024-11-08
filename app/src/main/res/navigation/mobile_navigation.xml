@@ -10,6 +10,19 @@
         android:name="com.uwe.fitnessapp.ui.exercises.ExercisesFragment"
         android:label="@string/title_exercises"
         tools:layout="@layout/fragment_exercises" />
+
+    <fragment
+        android:id="@+id/navigation_exercises_list"
+        android:name="com.uwe.fitnessapp.ui.exercises.components.ExerciseListFragment"
+        tools:layout="@layout/fragment_exercise_list">
+        <argument
+            android:name="groupLabel"
+            app:argType="string" />
+        <argument
+            android:name="exercises"
+            app:argType="com.uwe.fitnessapp.models.ExercisesGroup" />
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_exercises_exercise"
         android:name="com.uwe.fitnessapp.ui.exercises.components.ExerciseFragment"
@@ -18,6 +31,9 @@
         <argument
             android:name="label"
             app:argType="string" />
+        <argument
+            android:name="images"
+            app:argType="string[]" />
     </fragment>
 
     <fragment
@@ -37,16 +53,19 @@
         android:name="com.uwe.fitnessapp.ui.tools.ToolsFragment"
         android:label="@string/title_tools"
         tools:layout="@layout/fragment_tools" />
+
     <fragment
         android:id="@+id/navigation_bmi"
         android:name="com.uwe.fitnessapp.ui.tools.components.bmi.BMIFragment"
         android:label="BMI"
         tools:layout="@layout/fragment_bmi" />
+
     <fragment
         android:id="@+id/navigation_calories"
         android:name="com.uwe.fitnessapp.ui.tools.components.calories.CaloriesFragment"
         android:label="Calories"
         tools:layout="@layout/fragment_calories" />
+
     <fragment
         android:id="@+id/navigation_heart_rate"
         android:name="com.uwe.fitnessapp.ui.tools.components.heartrate.HeartRateFragment"
