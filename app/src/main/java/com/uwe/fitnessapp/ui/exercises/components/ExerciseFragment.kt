@@ -25,13 +25,15 @@ class ExerciseFragment : Fragment() {
             val adapter = ExerciseImageAdapter(images.toList())
             viewPager.adapter = adapter
 
-            // Настраиваем TabLayoutMediator для синхронизации с ViewPager
+            // Настройка TabLayoutMediator для синхронизации с ViewPager
             val tabLayout = binding.tabLayout
             TabLayoutMediator(tabLayout, viewPager) { _, _ -> }.attach()
         }
 
         // Устанавливаем описание в TextView
-        binding.descriptionTextView.text = description
+        if (description != null) {
+            binding.descriptionTextView.text = description
+        }
 
         return binding.root
     }
