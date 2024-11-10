@@ -1,5 +1,6 @@
 package com.uwe.fitnessapp.ui.exercises
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -37,31 +38,31 @@ class ExercisesFragment : Fragment() {
         val root: View = binding.root
 
         for (group in exercisesData) {
-            val drawableResourceId: Int = resources.getIdentifier(group!!.image, "drawable", activity?.packageName)
-            addCard(group.type, drawableResourceId) {
+            val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), group!!.image)
+            addCard(group.type, drawable) {
                 findNavController().navigate(R.id.navigation_exercises_list, Bundle().apply {
                     putString("groupType", group.type)
                 })
             }
         }
 
-
         return root
     }
 
-    private fun addCard(title: String, iconRes: Int, onClickAction: () -> Unit) {
+    private fun addCard(title: String, iconDrawable: Drawable?, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)
 
         val titleTextView = cardView.findViewById<TextView>(R.id.exerciseItemTitle)
         val iconImageView = cardView.findViewById<ImageView>(R.id.exerciseItemImage)
 
         titleTextView.text = title
-        iconImageView.setImageResource(iconRes)
+        iconImageView.setImageDrawable(iconDrawable)
 
         cardView.setOnClickListener { onClickAction() }
 
         binding.cardsContainer.addView(cardView)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
