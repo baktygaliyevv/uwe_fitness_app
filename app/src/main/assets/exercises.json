@@ -140,6 +140,128 @@
           "images/chinups2.png",
           "images/chinups3.png"
         ]
+      },
+      {
+        "name": "Deadlifts",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/deadlifts1.png",
+          "images/deadlifts2.png",
+          "images/deadlifts3.png",
+          "images/deadlifts4.png",
+          "images/deadlifts5.png"
+        ]
+      },
+      {
+        "name": "Lat Pull-Downs",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/latpulldowns1.png",
+          "images/latpulldowns2.png",
+          "images/latpulldowns3.png"
+        ]
+      },
+      {
+        "name": "Seated Rows",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/seatedrows1.png",
+          "images/seatedrows2.png",
+          "images/seatedrows3.png",
+          "images/seatedrows4.png",
+          "images/seatedrows5.png"
+        ]
+      },
+      {
+        "name": "One-Arm Dumbbell Rows",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/onearmdumbbellrows1.png",
+          "images/onearmdumbbellrows2.png",
+          "images/onearmdumbbellrows3.png"
+        ]
+      },
+      {
+        "name": "Barbell Shrugs",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellshrugs1.png",
+          "images/barbellshrugs2.png",
+          "images/barbellshrugs3.png"
+        ]
+      },
+      {
+        "name": "Back Extension",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/backextensions1.png",
+          "images/backextensions2.png",
+          "images/backextensions3.png"
+        ]
+      },
+      {
+        "name": "Bent Over Row",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/bentoverrow1.png",
+          "images/bentoverrow2.png",
+          "images/bentoverrow3.png",
+          "images/bentoverrow4.png"
+        ]
+      },
+      {
+        "name": "Reverse Chin-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/reversechinups1.png",
+          "images/reversechinups2.png",
+          "images/reversechinups3.png"
+        ]
+      },
+      {
+        "name": "Bodyweight Superman",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/bodyweightsuperman1.png",
+          "images/bodyweightsuperman2.png",
+          "images/bodyweightsuperman3.png"
+        ]
+      },
+      {
+        "name": "Dumbbells Bent Over Row",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellsbentoverrow1.png",
+          "images/dumbbellsbentoverrow2.png",
+          "images/dumbbellsbentoverrow3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Hyperextension",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballhyperextension1.png",
+          "images/stabilityballhyperextension2.png",
+          "images/stabilityballhyperextension3.png"
+        ]
+      },
+      {
+        "name": "Seated Bent Over Row",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/seatedbentoverrow1.png",
+          "images/seatedbentoverrow2.png",
+          "images/seatedbentoverrow3.png"
+        ]
+      },
+      {
+        "name": "T-Bar Bent Over Row",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/tbarbentoverrow1.png",
+          "images/tbarbentoverrow2.png",
+          "images/tbarbentoverrow3.png"
+        ]
       }
     ]
   },
@@ -148,12 +270,191 @@
     "image": "cat/cat2.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
+        "name": "Curls",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/curls1.png",
+          "images/curls2.png",
+          "images/curls3.png",
+          "images/curls4.png"
+        ]
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellcurls1.png",
+          "images/barbellcurls2.png",
+          "images/barbellcurls3.png",
+          "images/barbellcurls4.png",
+          "images/barbellcurls5.png"
+        ]
+      },
+      {
+        "name": "Preacher Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/preachercurls1.png",
+          "images/preachercurls2.png",
+          "images/preachercurls3.png",
+          "images/preachercurls4.png"
+        ]
+      },
+      {
+        "name": "Hammer Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/hammercurls1.png",
+          "images/hammercurls2.png",
+          "images/hammercurls3.png",
+          "images/hammercurls4.png"
+        ]
+      },
+      {
+        "name": "Concentration Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/concentrationcurls1.png",
+          "images/concentrationcurls2.png",
+          "images/concentrationcurls3.png",
+          "images/concentrationcurls4.png",
+          "images/concentrationcurls5.png"
+        ]
+      },
+      {
+        "name": "Reverse Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/reversecurls1.png",
+          "images/reversecurls2.png",
+          "images/reversecurls3.png",
+          "images/reversecurls4.png"
+        ]
+      },
+      {
+        "name": "Cable Biceps Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/cablebicepscurl1.png",
+          "images/cablebicepscurl2.png",
+          "images/cablebicepscurl3.png"
+        ]
+      },
+      {
+        "name": "Low Pulley Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/lowpulleycurls1.png",
+          "images/lowpulleycurls2.png",
+          "images/lowpulleycurls3.png"
+        ]
+      },
+      {
+        "name": "Low Pulley Cable Crossover",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/lowpulleycablecrossover1.png",
+          "images/lowpulleycablecrossover2.png",
+          "images/lowpulleycablecrossover3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl (Hammer Grip On Bench)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurl_hammergriponbench_1.png",
+          "images/dumbbellbicepscurl_hammergriponbench_2.png",
+          "images/dumbbellbicepscurl_hammergriponbench_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl (Hammer Grip Standing)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurl_hammergripstanding_1.png",
+          "images/dumbbellbicepscurl_hammergripstanding_2.png",
+          "images/dumbbellbicepscurl_hammergripstanding_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl (Underhand Grip Concentration With Single Arm)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_1.png",
+          "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_2.png",
+          "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl (Underhand Grip On Bench)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurl_underhandgriponbench_1.png",
+          "images/dumbbellbicepscurl_underhandgriponbench_2.png",
+          "images/dumbbellbicepscurl_underhandgriponbench_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl Seated (Underhand Grip)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurlseated_underhandgrip_1.png",
+          "images/dumbbellbicepscurlseated_underhandgrip_2.png",
+          "images/dumbbellbicepscurlseated_underhandgrip_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Biceps Curl Seated (Hammer Grip)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellbicepscurlseated_hammergrip_1.png",
+          "images/dumbbellbicepscurlseated_hammergrip_2.png",
+          "images/dumbbellbicepscurlseated_hammergrip_3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Dumbbell Biceps Curl (Hammer Grip)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballdumbbellbicepscurl_hammergrip_1.png",
+          "images/stabilityballdumbbellbicepscurl_hammergrip_2.png",
+          "images/stabilityballdumbbellbicepscurl_hammergrip_3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Dumbbell Biceps Curl (Underhand Grip)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballdumbbell_bicepscurl_underhand_grip_1.png",
+          "images/stabilityballdumbbell_bicepscurl_underhand_grip_2.png",
+          "images/stabilityballdumbbell_bicepscurl_underhand_grip_3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Dumbbell Biceps Curl Seated",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballdumbbellbicepscurlseated1.png",
+          "images/stabilityballdumbbellbicepscurlseated2.png",
+          "images/stabilityballdumbbellbicepscurlseated3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Dumbbell Biceps Preacher Curl",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballdumbbellbicepspreachercurl1.png",
+          "images/stabilityballdumbbellbicepspreachercurl2.png",
+          "images/stabilityballdumbbellbicepspreachercurl3.png"
+        ]
+      },
+      {
+        "name": "Underhand Grip Prone On An Incline Bench",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/underhandgripproneonaninclinebench1.png",
+          "images/underhandgripproneonaninclinebench2.png",
+          "images/underhandgripproneonaninclinebench3.png"
         ]
       }
     ]
