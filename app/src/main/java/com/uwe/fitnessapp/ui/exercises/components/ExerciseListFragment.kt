@@ -1,5 +1,6 @@
 package com.uwe.fitnessapp.ui.exercises.components
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -37,8 +38,8 @@ class ExerciseListFragment : Fragment() {
         val selectedGroup = exercisesData.find { it?.type == groupType }
 
         selectedGroup?.exercises?.forEach { exercise ->
-            val drawableResourceId: Int = resources.getIdentifier(exercise.images[0], "drawable", activity?.packageName)
-            addCard(exercise.name, drawableResourceId) {
+            val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), exercise.images[0])
+            addCard(exercise.name, drawable) {
                 findNavController().navigate(R.id.navigation_exercises_exercise, Bundle().apply {
                     putString("label", exercise.name)
                     putStringArray("images", exercise.images.toTypedArray())
@@ -50,20 +51,20 @@ class ExerciseListFragment : Fragment() {
         return binding.root
     }
 
-
-    private fun addCard(title: String, iconRes: Int, onClickAction: () -> Unit) {
+    private fun addCard(title: String, iconDrawable: Drawable?, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)
 
         val titleTextView = cardView.findViewById<TextView>(R.id.exerciseItemTitle)
         val iconImageView = cardView.findViewById<ImageView>(R.id.exerciseItemImage)
 
         titleTextView.text = title
-        iconImageView.setImageResource(iconRes)
+        iconImageView.setImageDrawable(iconDrawable)
 
         cardView.setOnClickListener { onClickAction() }
 
         binding.cardsContainer.addView(cardView)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

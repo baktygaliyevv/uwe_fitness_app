@@ -22,8 +22,8 @@ class ExerciseImageAdapter(private val images: List<String>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val context = holder.itemView.context
-        val imageResourceId = context.resources.getIdentifier(images[position], "drawable", context.packageName)
-        holder.imageView.setImageResource(imageResourceId)
+        val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(context, images[position])
+        holder.imageView.setImageDrawable(drawable)
     }
 
     override fun getItemCount() = images.size

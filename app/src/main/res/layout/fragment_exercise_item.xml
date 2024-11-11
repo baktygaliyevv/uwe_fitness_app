@@ -21,8 +21,7 @@
             android:layout_height="75dp"
             android:layout_marginEnd="16dp"
             android:contentDescription="@string/exercises_card_image_alt"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/flatbenchlyinglegraise5" />
+            android:scaleType="centerCrop" />
 
         <LinearLayout
             android:layout_width="0dp"
