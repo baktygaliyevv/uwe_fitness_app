@@ -17,6 +17,7 @@ import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExercisesBinding
 import com.uwe.fitnessapp.models.ExercisesGroup
 import com.uwe.fitnessapp.utils.ReadJSON
+import com.uwe.fitnessapp.utils.GetExercisesCount
 
 class ExercisesFragment : Fragment() {
 
@@ -39,7 +40,8 @@ class ExercisesFragment : Fragment() {
 
         for (group in exercisesData) {
             val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), group!!.image)
-            addCard(group.type, drawable) {
+            val exerciseCount = GetExercisesCount(exercisesData, group.type)
+            addCard(group.type, drawable, exerciseCount) {
                 findNavController().navigate(R.id.navigation_exercises_list, Bundle().apply {
                     putString("groupType", group.type)
                 })
@@ -49,13 +51,15 @@ class ExercisesFragment : Fragment() {
         return root
     }
 
-    private fun addCard(title: String, iconDrawable: Drawable?, onClickAction: () -> Unit) {
+    private fun addCard(title: String, iconDrawable: Drawable?, exerciseCount: Int, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)
 
+        val countTextView = cardView.findViewById<TextView>(R.id.exerciseItemCount)
         val titleTextView = cardView.findViewById<TextView>(R.id.exerciseItemTitle)
         val iconImageView = cardView.findViewById<ImageView>(R.id.exerciseItemImage)
 
         titleTextView.text = title
+        countTextView.text = "$exerciseCount exercises"
         iconImageView.setImageDrawable(iconDrawable)
 
         cardView.setOnClickListener { onClickAction() }

@@ -52,7 +52,7 @@ class ExerciseListFragment : Fragment() {
     }
 
     private fun addCard(title: String, iconDrawable: Drawable?, onClickAction: () -> Unit) {
-        val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)
+        val cardView = layoutInflater.inflate(R.layout.item_exercise_list, binding.cardsContainer, false)
 
         val titleTextView = cardView.findViewById<TextView>(R.id.exerciseItemTitle)
         val iconImageView = cardView.findViewById<ImageView>(R.id.exerciseItemImage)
@@ -64,6 +64,7 @@ class ExerciseListFragment : Fragment() {
 
         binding.cardsContainer.addView(cardView)
     }
+
 
 
     override fun onDestroyView() {
