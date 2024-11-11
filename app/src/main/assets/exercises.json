@@ -464,12 +464,84 @@
     "image": "cat/cat3.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
+        "name": "Toe Raises",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/toeraises1.png",
+          "images/toeraises2.png",
+          "images/toeraises3.png"
+        ]
+      },
+      {
+        "name": "One-Leg Toe Raises",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/onelegtoeraises1.png",
+          "images/onelegtoeraises2.png",
+          "images/onelegtoeraises3.png"
+        ]
+      },
+      {
+        "name": "Seated Calf Raises",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/seatedcalfraises1.png",
+          "images/seatedcalfraises2.png",
+          "images/seatedcalfraises3.png"
+        ]
+      },
+      {
+        "name": "Barbell Calf Raise (Seated)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellcalfraise_seated_1.png",
+          "images/barbellcalfraise_seated_2.png",
+          "images/barbellcalfraise_seated_3.png"
+        ]
+      },
+      {
+        "name": "Barbell Calf Raise With Single Leg (Seated)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellcalfraisewithsingleleg_seated_1.png",
+          "images/barbellcalfraisewithsingleleg_seated_2.png",
+          "images/barbellcalfraisewithsingleleg_seated_3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Calf Jump",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellcalfjump1.png",
+          "images/dumbbellcalfjump2.png",
+          "images/dumbbellcalfjump3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Calf Raise (Seated)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellcalfraise_seated_1.png",
+          "images/dumbbellcalfraise_seated_2.png",
+          "images/dumbbellcalfraise_seated_3.png"
+        ]
+      },
+      {
+        "name": "Standing Barbell Calf Raise",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/standingbarbellcalfraise1.png",
+          "images/standingbarbellcalfraise2.png",
+          "images/standingbarbellcalfraise3.png"
+        ]
+      },
+      {
+        "name": "Standing Dumbbell Calf Raise",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/standingdumbbellcalfraise1.png",
+          "images/standingdumbbellcalfraise2.png",
+          "images/standingdumbbellcalfraise3.png"
         ]
       }
     ]
@@ -479,12 +551,216 @@
     "image": "cat/cat4.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
+        "name": "Bench Presses",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/benchpresses1.png",
+          "images/benchpresses2.png",
+          "images/benchpresses3.png"
+        ]
+      },
+      {
+        "name": "Incline Presses",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/inclinepresses1.png",
+          "images/inclinepresses2.png",
+          "images/inclinepresses3.png"
+        ]
+      },
+      {
+        "name": "Parallel Bar Dips",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/parallelbardips1.png",
+          "images/parallelbardips2.png",
+          "images/parallelbardips3.png",
+          "images/parallelbardips4.png"
+        ]
+      },
+      {
+        "name": "Cable Crossover Flys",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/cablecrossoverflys1.png",
+          "images/cablecrossoverflys2.png",
+          "images/cablecrossoverflys3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Flys",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellflys1.png",
+          "images/dumbbellflys2.png",
+          "images/dumbbellflys3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Pullovers",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellpullovers1.png",
+          "images/dumbbellpullovers2.png",
+          "images/dumbbellpullovers3.png",
+          "images/dumbbellpullovers4.png"
+        ]
+      },
+      {
+        "name": "Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/push_ups1.png",
+          "images/push_ups2.png",
+          "images/push_ups3.png"
+        ]
+      },
+      {
+        "name": "Dumbell Press",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellpress1.png",
+          "images/dumbbellpress2.png",
+          "images/dumbbellpress3.png",
+          "images/dumbbellpress4.png"
+        ]
+      },
+      {
+        "name": "Incline Dumbell Press",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellpresses1.png",
+          "images/dumbbellpresses2.png",
+          "images/dumbbellpresses3.png"
+        ]
+      },
+      {
+        "name": "Barbell Bench Press",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellbenchpress1.png",
+          "images/barbellbenchpress2.png",
+          "images/barbellbenchpress3.png"
+        ]
+      },
+      {
+        "name": "Pec Deck Flies",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/pecdeckflies1.png",
+          "images/pecdeckflies2.png",
+          "images/pecdeckflies3.png"
+        ]
+      },
+      {
+        "name": "Decline Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/declinepushup1.png",
+          "images/declinepushup2.png",
+          "images/declinepushup3.png"
+        ]
+      },
+      {
+        "name": "Dive Bomber Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/divebomberpushup1.png",
+          "images/divebomberpushup2.png",
+          "images/divebomberpushup3.png",
+          "images/divebomberpushup4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Floor Chest Press",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellfloorchestpress1.png",
+          "images/dumbbellfloorchestpress2.png",
+          "images/dumbbellfloorchestpress3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellpushup1.png",
+          "images/dumbbellpushup2.png",
+          "images/dumbbellpushup3.png"
+        ]
+      },
+      {
+        "name": "Incline Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/inclinepushup1.png",
+          "images/inclinepushup1.png",
+          "images/inclinepushup1.png"
+        ]
+      },
+      {
+        "name": "Medicine Ball Push-Ups (Alternating)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/medicineballpushup_alternating_1.png",
+          "images/medicineballpushup_alternating_2.png",
+          "images/medicineballpushup_alternating_3.png",
+          "images/medicineballpushup_alternating_4.png",
+          "images/medicineballpushup_alternating_5.png"
+        ]
+      },
+      {
+        "name": "Modified Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/modifiedpushup1.png",
+          "images/modifiedpushup2.png",
+          "images/modifiedpushup3.png"
+        ]
+      },
+      {
+        "name": "Single Arm Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/singlearmpushup1.png",
+          "images/singlearmpushup2.png",
+          "images/singlearmpushup3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Flat Dumbbell Fly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballflatdumbbellfly1.png",
+          "images/stabilityballflatdumbbellfly2.png",
+          "images/stabilityballflatdumbbellfly3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Flat Dumbbell Chest Press",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballflatdumbbellchestpress1.png",
+          "images/stabilityballflatdumbbellchestpress2.png",
+          "images/stabilityballflatdumbbellchestpress3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/stabilityballpushup1.png",
+          "images/stabilityballpushup2.png",
+          "images/stabilityballpushup3.png"
+        ]
+      },
+      {
+        "name": "Weighted Push-Ups",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/weightedpushup1.png",
+          "images/weightedpushup2.png",
+          "images/weightedpushup3.png"
         ]
       }
     ]
@@ -494,12 +770,39 @@
     "image": "cat/cat5.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
+        "name": "Wrist Curls",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/wristcurls1.png",
+          "images/wristcurls2.png",
+          "images/wristcurls3.png"
+        ]
+      },
+      {
+        "name": "Wrist Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/wristcurls21.png",
+          "images/wristcurls22.png",
+          "images/wristcurls23.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Wrist Twist",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellwristtwist1.png",
+          "images/dumbbellwristtwist2.png",
+          "images/dumbbellwristtwist3.png"
+        ]
+      },
+      {
+        "name": "Standing Wrist Curl",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/standingwristcurl1.png",
+          "images/standingwristcurl2.png",
+          "images/standingwristcurl3.png"
         ]
       }
     ]
@@ -509,12 +812,182 @@
     "image": "cat/cat6.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
+        "name": "Squats",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/squats1.png",
+          "images/squats2.png",
+          "images/squats3.png",
+          "images/squats4.png"
+        ]
+      },
+      {
+        "name": "Angled Leg Presses",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/angledlegpresses1.png",
+          "images/angledlegpresses2.png",
+          "images/angledlegpresses3.png",
+          "images/angledlegpresses4.png"
+        ]
+      },
+      {
+        "name": "Leg Extensions",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/legextensions1.png",
+          "images/legextensions2.png",
+          "images/legextensions3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Lunges",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbelllunges1.png",
+          "images/dumbbelllunges2.png",
+          "images/dumbbelllunges3.png"
+        ]
+      },
+      {
+        "name": "Cable Back Kicks",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/cablebackkicks1.png",
+          "images/cablebackkicks2.png",
+          "images/cablebackkicks3.png",
+          "images/cablebackkicks4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Squats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellsquats1.png",
+          "images/dumbbellsquats2.png",
+          "images/dumbbellsquats3.png",
+          "images/dumbbellsquats4.png"
+        ]
+      },
+      {
+        "name": "Front Squats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/frontsquats1.png",
+          "images/frontsquats2.png",
+          "images/frontsquats3.png",
+          "images/frontsquats4.png"
+        ]
+      },
+      {
+        "name": "Power Squats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/powersquats1.png",
+          "images/powersquats2.png",
+          "images/powersquats3.png",
+          "images/powersquats4.png"
+        ]
+      },
+      {
+        "name": "Hack Squats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/hacksquats1.png",
+          "images/hacksquats2.png",
+          "images/hacksquats3.png"
+        ]
+      },
+      {
+        "name": "Seated Leg Curls",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/seatedlegcurls1.png",
+          "images/seatedlegcurls2.png",
+          "images/seatedlegcurls3.png"
+        ]
+      },
+      {
+        "name": "Barbell Lunge",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbelllunge1.png",
+          "images/barbelllunge2.png",
+          "images/barbelllunge3.png"
+        ]
+      },
+      {
+        "name": "Barbell Squats (Assisted)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellsquat_assisted_1.png",
+          "images/barbellsquat_assisted_2.png",
+          "images/barbellsquat_assisted_3.png"
+        ]
+      },
+      {
+        "name": "Barbell Squats Overhead",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/barbellsquatoverhead1.png",
+          "images/barbellsquatoverhead2.png",
+          "images/barbellsquatoverhead3.png"
+        ]
+      },
+      {
+        "name": "Bench Jump",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/benchjump1.png",
+          "images/benchjump2.png",
+          "images/benchjump3.png",
+          "images/benchjump4.png"
+        ]
+      },
+      {
+        "name": "Bulgarian Split Squat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/bulgariansplitsquat1.png",
+          "images/bulgariansplitsquat2.png",
+          "images/bulgariansplitsquat3.png",
+          "images/bulgariansplitsquat4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Side Lunge",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/dumbbellsidelunge1.png",
+          "images/dumbbellsidelunge2.png",
+          "images/dumbbellsidelunge3.png"
+        ]
+      },
+      {
+        "name": "Barbell Good Morning",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/goodmorning1.png",
+          "images/goodmorning2.png",
+          "images/goodmorning3.png"
+        ]
+      },
+      {
+        "name": "One Arm Side Deadlift",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/onearmsidedeadlift1.png",
+          "images/onearmsidedeadlift2.png",
+          "images/onearmsidedeadlift3.png"
+        ]
+      },
+      {
+        "name": "Single Leg Squat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "images": [
+          "images/singlelegsquat1.png",
+          "images/singlelegsquat2.png",
+          "images/singlelegsquat3.png"
         ]
       }
     ]
@@ -524,12 +997,202 @@
     "image": "cat/cat7.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "name": "Back Presses",
+        "description": "",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/backpresses1.png",
+          "images/backpresses2.png",
+          "images/backpresses3.png"
+        ]
+      },
+      {
+        "name": "Seated Front Presses",
+        "description": "",
+        "images": [
+          "images/seatedfrontpresses1.png",
+          "images/seatedfrontpresses2.png",
+          "images/seatedfrontpresses3.png"
+        ]
+      },
+      {
+        "name": "Seated Dumbbell Presses",
+        "description": "",
+        "images": [
+          "images/seateddumbelprese1.png",
+          "images/seateddumbelprese2.png",
+          "images/seateddumbelprese3.png"
+        ]
+      },
+      {
+        "name": "Low-Pulley Lateral Raises",
+        "description": "",
+        "images": [
+          "images/lowpulleylateralraise1.png",
+          "images/lowpulleylateralraise2.png",
+          "images/lowpulleylateralraise3.png",
+          "images/lowpulleylateralraise4.png",
+          "images/lowpulleylateralraise5.png"
+        ]
+      },
+      {
+        "name": "Upright Rows",
+        "description": "",
+        "images": [
+          "images/uprightrow1.png",
+          "images/uprightrow2.png",
+          "images/uprightrow3.png",
+          "images/uprightrow4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Rear Deltoid Raises",
+        "description": "",
+        "images": [
+          "images/dumbbellreardeltoidraises1.png",
+          "images/dumbbellreardeltoidraises2.png",
+          "images/dumbbellreardeltoidraises3.png",
+          "images/dumbbellreardeltoidraises4.png"
+        ]
+      },
+      {
+        "name": "Lateral Raises",
+        "description": "",
+        "images": [
+          "images/lateralraises1.png",
+          "images/lateralraises2.png",
+          "images/lateralraises3.png",
+          "images/lateralraises4.png"
+        ]
+      },
+      {
+        "name": "Front Raises",
+        "description": "",
+        "images": [
+          "images/frontraises1.png",
+          "images/frontraises2.png",
+          "images/frontraises3.png",
+          "images/frontraises4.png"
+        ]
+      },
+      {
+        "name": "Barbell Front Raises",
+        "description": "",
+        "images": [
+          "images/barbellfrontraises1.png",
+          "images/barbellfrontraises2.png",
+          "images/barbellfrontraises3.png"
+        ]
+      },
+      {
+        "name": "Low Pulley Bent-Over Lateral Raises",
+        "description": "",
+        "images": [
+          "images/lowpulleybentoverlateralraise1.png",
+          "images/lowpulleybentoverlateralraise2.png",
+          "images/lowpulleybentoverlateralraise3.png"
+        ]
+      },
+      {
+        "name": "Low Pulley Front Raises",
+        "description": "",
+        "images": [
+          "images/lowpulleyfrontraises1.png",
+          "images/lowpulleyfrontraises2.png",
+          "images/lowpulleyfrontraises3.png",
+          "images/lowpulleyfrontraises4.png",
+          "images/lowpulleyfrontraises5.png"
+        ]
+      },
+      {
+        "name": "Pec Deck Rear-Delt Laterals",
+        "description": "",
+        "images": [
+          "images/pecdeckreardeltlaterals1.png",
+          "images/pecdeckreardeltlaterals2.png",
+          "images/pecdeckreardeltlaterals3.png",
+          "images/pecdeckreardeltlaterals4.png"
+        ]
+      },
+      {
+        "name": "Arnold Press",
+        "description": "",
+        "images": [
+          "images/arnoldpress1.png",
+          "images/arnoldpress2.png",
+          "images/arnoldpress3.png",
+          "images/arnoldpress4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Lateral Raise With Arms Bent",
+        "description": "",
+        "images": [
+          "images/dumbbelllateralraisewitharmsbent1.png",
+          "images/dumbbelllateralraisewitharmsbent2.png",
+          "images/dumbbelllateralraisewitharmsbent3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Scarecrow",
+        "description": "",
+        "images": [
+          "images/dumbbellscarecrow1.png",
+          "images/dumbbellscarecrow2.png",
+          "images/dumbbellscarecrow3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Shoulder Press",
+        "description": "",
+        "images": [
+          "images/dumbbellshoulderpress1.png",
+          "images/dumbbellshoulderpress2.png",
+          "images/dumbbellshoulderpress3.png"
+        ]
+      },
+      {
+        "name": "Front Weighted Raise",
+        "description": "",
+        "images": [
+          "images/frontweightedraise1.png",
+          "images/frontweightedraise2.png",
+          "images/frontweightedraise3.png"
+        ]
+      },
+      {
+        "name": "Lateral Weighted Raise",
+        "description": "",
+        "images": [
+          "images/lateralweightedraise1.png",
+          "images/lateralweightedraise2.png",
+          "images/lateralweightedraise3.png"
+        ]
+      },
+      {
+        "name": "Military Press Behind The Neck (Standing)",
+        "description": "",
+        "images": [
+          "images/militarypressbehindtheneck_standing_1.png",
+          "images/militarypressbehindtheneck_standing_2.png",
+          "images/militarypressbehindtheneck_standing_3.png"
+        ]
+      },
+      {
+        "name": "Seated Dumbbell Front Raise",
+        "description": "",
+        "images": [
+          "images/seateddumbbellfrontraise1.png",
+          "images/seateddumbbellfrontraise2.png",
+          "images/seateddumbbellfrontraise3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Lateral Raise",
+        "description": "",
+        "images": [
+          "images/stabilityballlateralraise1.png",
+          "images/stabilityballlateralraise2.png",
+          "images/stabilityballlateralraise3.png"
         ]
       }
     ]
@@ -539,12 +1202,169 @@
     "image": "cat/cat8.png",
     "exercises": [
       {
-        "name": "Chin-Ups",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Maecenas tempor libero vel mauris blandit molestie quis vel nisl. In volutpat eu est eu tincidunt. Cras vel odio quis nulla maximus maximus eu et tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vestibulum, erat vitae venenatis consequat, neque quam pellentesque tortor, non consectetur enim nibh porttitor turpis. Suspendisse potenti. Vivamus semper nunc dolor, a placerat nisi fringilla sit amet. Donec vitae velit bibendum, sodales felis eget, lacinia dolor. Ut porta sapien ipsum, et porttitor ligula blandit sed. Etiam erat metus, rhoncus nec pharetra vel, convallis id leo. Nam sit amet consectetur tellus. Sed viverra eros non lectus laoreet consectetur. Donec congue ultricies lacus, eget iaculis lectus. Nunc ut felis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus arcu nec augue sagittis ultrices. Donec mi quam, dapibus ut arcu ut, porttitor fringilla odio.",
+        "name": "Close-Grip Bench Presses",
+        "description": "",
         "images": [
-          "images/chinups1.png",
-          "images/chinups2.png",
-          "images/chinups3.png"
+          "images/closegripbenchprese1.png",
+          "images/closegripbenchprese2.png",
+          "images/closegripbenchprese3.png"
+        ]
+      },
+      {
+        "name": "Push-Downs",
+        "description": "",
+        "images": [
+          "images/pushdowns1.png",
+          "images/pushdowns2.png",
+          "images/pushdowns3.png"
+        ]
+      },
+      {
+        "name": "Triceps Extensions",
+        "description": "",
+        "images": [
+          "images/tricepsextensions1.png",
+          "images/tricepsextensions2.png",
+          "images/tricepsextensions3.png",
+          "images/tricepsextensions4.png"
+        ]
+      },
+      {
+        "name": "Triceps KickBacks",
+        "description": "",
+        "images": [
+          "images/tricepskickbacks1.png",
+          "images/tricepskickbacks2.png",
+          "images/tricepskickbacks3.png"
+        ]
+      },
+      {
+        "name": "One-Arm Dumbbell Triceps Extensions",
+        "description": "",
+        "images": [
+          "images/onearmsextensions1.png",
+          "images/onearmsextensions2.png",
+          "images/onearmsextensions3.png",
+          "images/onearmsextensions4.png",
+          "images/onearmsextensions5.png"
+        ]
+      },
+      {
+        "name": "Bar Triceps Extensions",
+        "description": "",
+        "images": [
+          "images/bartricepsextensions1.png",
+          "images/bartricepsextensions2.png",
+          "images/bartricepsextensions3.png",
+          "images/bartricepsextensions4.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Triceps Extension",
+        "description": "",
+        "images": [
+          "images/dumbbelltricepsextension1.png",
+          "images/dumbbelltricepsextension2.png",
+          "images/dumbbelltricepsextension3.png"
+        ]
+      },
+      {
+        "name": "Triceps Dips",
+        "description": "",
+        "images": [
+          "images/tricepsdips1.png",
+          "images/tricepsdips2.png",
+          "images/tricepsdips3.png"
+        ]
+      },
+      {
+        "name": "Triceps Pushdown",
+        "description": "",
+        "images": [
+          "images/tricepspushdown1.png",
+          "images/tricepspushdown2.png",
+          "images/tricepspushdown3.png"
+        ]
+      },
+      {
+        "name": "One Arm Reverse Pushdown",
+        "description": "",
+        "images": [
+          "images/onearmreversepushdown1.png",
+          "images/onearmreversepushdown2.png",
+          "images/onearmreversepushdown3.png"
+        ]
+      },
+      {
+        "name": "Diamond Pushup",
+        "description": "",
+        "images": [
+          "images/diamondpushup1.png",
+          "images/diamondpushup2.png",
+          "images/diamondpushup3.png"
+        ]
+      },
+      {
+        "name": "Diamond Pushup On Bench",
+        "description": "",
+        "images": [
+          "images/diamondpushuponbench1.png",
+          "images/diamondpushuponbench2.png",
+          "images/diamondpushuponbench3.png"
+        ]
+      },
+      {
+        "name": "Dumbbell Row Kickback",
+        "description": "",
+        "images": [
+          "images/dumbbellrowkickback1.png",
+          "images/dumbbellrowkickback2.png",
+          "images/dumbbellrowkickback3.png"
+        ]
+      },
+      {
+        "name": "Lying Single Arm Pushup",
+        "description": "",
+        "images": [
+          "images/lyingsinglearmpushup1.png",
+          "images/lyingsinglearmpushup2.png",
+          "images/lyingsinglearmpushup3.png"
+        ]
+      },
+      {
+        "name": "Seated Triceps Extension",
+        "description": "",
+        "images": [
+          "images/seatedtricepsextension1.png",
+          "images/seatedtricepsextension2.png",
+          "images/seatedtricepsextension3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball French Press",
+        "description": "",
+        "images": [
+          "images/stabilityballfrenchpress1.png",
+          "images/stabilityballfrenchpress2.png",
+          "images/stabilityballfrenchpress3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Pullover",
+        "description": "",
+        "images": [
+          "images/stabilityballpullover1.png",
+          "images/stabilityballpullover2.png",
+          "images/stabilityballpullover3.png"
+        ]
+      },
+      {
+        "name": "Stability Ball Triceps Extension",
+        "description": "",
+        "images": [
+          "images/stabilityballtricepsextension1.png",
+          "images/stabilityballtricepsextension2.png",
+          "images/stabilityballtricepsextension3.png"
         ]
       }
     ]
