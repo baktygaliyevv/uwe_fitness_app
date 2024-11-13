@@ -72,8 +72,8 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             app:sv_unit=" kg/m²"
-            app:sv_minSpeed="0"
-            app:sv_maxSpeed="50"
+            app:sv_minSpeed="15"
+            app:sv_maxSpeed="40"
             app:sv_indicator="NeedleIndicator"
             app:sv_indicatorWidth="8dp"
             app:sv_indicatorColor="@android:color/black"
@@ -96,6 +96,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Healthy BMI range: 18.5 kg/m² - 25 kg/m²"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/healthyWeightRangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy weight range: 0.0 kg - 0.0 kg"
             android:textSize="16sp"
             android:gravity="center"
             android:layout_marginTop="8dp" />
