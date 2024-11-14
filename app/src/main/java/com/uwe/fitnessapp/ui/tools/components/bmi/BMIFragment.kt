@@ -31,15 +31,15 @@ class BMIFragment : Fragment() {
         bmiGauge.clearSections()
         val sectionWidth = 110f
         bmiGauge.addSections(
-            Section(0f, 0.16f, Color.parseColor("#FF5722"), sectionWidth),   // Severe Thinness
-            Section(0.16f, 0.20f, Color.parseColor("#FF9800"), sectionWidth), // Moderate Thinness
-            Section(0.20f, 0.28f, Color.parseColor("#FFEB3B"), sectionWidth), // Mild Thinness
-            Section(0.28f, 0.6f, Color.parseColor("#4CAF50"), sectionWidth),  // Normal
-            Section(0.6f, 0.7f, Color.parseColor("#FFEB3B"), sectionWidth),   // Overweight
-            Section(0.7f, 0.8f, Color.parseColor("#FF9800"), sectionWidth),   // Obese Class I
-            Section(0.8f, 0.9f, Color.parseColor("#F44336"), sectionWidth),   // Obese Class II
-            Section(0.9f, 1f, Color.parseColor("#D32F2F"), sectionWidth)       // Obese Class III
+            Section(0f, 0.04f, Color.parseColor("#FF5722"), sectionWidth),    // Severe Thinness
+            Section(0.04f, 0.08f, Color.parseColor("#FF9800"), sectionWidth),  // Moderate Thinness
+            Section(0.08f, 0.14f, Color.parseColor("#FFEB3B"), sectionWidth),  // Mild Thinness
+            Section(0.14f, 0.40f, Color.parseColor("#4CAF50"), sectionWidth),  // Normal
+            Section(0.40f, 0.60f, Color.parseColor("#FFEB3B"), sectionWidth),  // Overweight
+            Section(0.60f, 0.80f, Color.parseColor("#FF9800"), sectionWidth),  // Obese Class I
+            Section(0.80f, 1f, Color.parseColor("#F44336"), sectionWidth)      // Obese Class II
         )
+
 
         binding.calculateButton.setOnClickListener {
             calculateBMI()
@@ -89,7 +89,7 @@ class BMIFragment : Fragment() {
             }
 
             val bmi = weight / (height.pow(2))
-            displayBMIResult(bmi)
+            displayBMIResult(bmi, height)
 
         } catch (e: NumberFormatException) {
             binding.ageInputLayout.error = "Enter a valid number for age"
@@ -98,8 +98,9 @@ class BMIFragment : Fragment() {
         }
     }
 
-    private fun displayBMIResult(bmi: Float) {
-        bmiGauge.speedTo(bmi, 2000)
+    private fun displayBMIResult(bmi: Float, height: Float) {
+        val correctedBmi = bmi.coerceIn(15f, 40f)
+        bmiGauge.speedTo(correctedBmi, 2000)
 
         val bmiCategory = when {
             bmi < 16 -> "Severe Thinness"
@@ -112,8 +113,13 @@ class BMIFragment : Fragment() {
             else -> "Obese Class III"
         }
 
+        val healthyWeightMin = 18.5 * height.pow(2)
+        val healthyWeightMax = 25 * height.pow(2)
         val resultText = "BMI = %.1f kg/m² (%s)".format(bmi, bmiCategory)
         binding.bmiValueText.text = resultText
+
+        val healthyWeightRangeText = "Healthy weight range: %.1f kg - %.1f kg".format(healthyWeightMin, healthyWeightMax)
+        binding.healthyWeightRangeText.text = healthyWeightRangeText
     }
 
     override fun onDestroyView() {
