@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Push Pull Legs",
+    "days": [
+      {
+        "id": 1,
+        "exercises": [
+          {
+            "exercise_group_id": 1,
+            "exercise_id": 1
+          }
+        ]
+      }
+    ]
+  }
+]
