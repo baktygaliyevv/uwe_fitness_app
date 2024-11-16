@@ -1,14 +1,13 @@
 package com.uwe.fitnessapp.ui.plans
 
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
@@ -16,7 +15,7 @@ import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentPlansBinding
 import com.uwe.fitnessapp.utils.ReadJSON
-import com.google.android.material.card.MaterialCardView
+import com.uwe.fitnessapp.models.Plan
 import com.uwe.fitnessapp.utils.ReadImagesFromAssets
 
 class PlansFragment : Fragment() {
@@ -32,7 +31,6 @@ class PlansFragment : Fragment() {
         _binding = FragmentPlansBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        // Чтение данных планов из JSON файла
         val plansJson = ReadJSON(requireContext(), "plans.json")
         plansData = Gson().fromJson(plansJson, object : TypeToken<ArrayList<Map<String, Any>>>() {}.type)
 
@@ -54,7 +52,6 @@ class PlansFragment : Fragment() {
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = PlansAdapter(plansData)
     }
-
 
     inner class PlansAdapter(private val plans: List<Map<String, Any>>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
@@ -97,8 +94,32 @@ class PlansFragment : Fragment() {
                 if (drawable != null) {
                     image.setImageDrawable(drawable)
                 }
+
+                itemView.setOnClickListener {
+                    val id = (plan["id"] as Double).toInt()
+                    val name = plan["name"] as String
+                    val days = plan["days"] as List<Map<String, Any>>
+                    val convertedDays = days.map { day ->
+                        Plan.Day(
+                            id = (day["id"] as Double).toInt(),
+                            exercises = (day["exercises"] as List<Map<String, Any>>).map { exercise ->
+                                Plan.ExerciseReference(
+                                    exerciseGroupId = (exercise["exercise_group_id"] as Double).toInt(),
+                                    exerciseId = (exercise["exercise_id"] as Double).toInt()
+                                )
+                            }
+                        )
+                    }
+                    val planObject = Plan(id = id, name = name, image = imagePath, days = convertedDays)
+
+                    val bundle = Bundle().apply {
+                        putParcelable("plan", planObject)
+                    }
+                    findNavController().navigate(R.id.navigation_plan_detail, bundle)
+                }
             }
         }
+
 
         inner class HorizontalViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             private val title: TextView = itemView.findViewById(R.id.planTitle)
@@ -112,6 +133,28 @@ class PlansFragment : Fragment() {
 
                 if (drawable != null) {
                     image.setImageDrawable(drawable)
+                }
+                itemView.setOnClickListener {
+                    val id = (plan["id"] as Double).toInt()
+                    val name = plan["name"] as String
+                    val days = plan["days"] as List<Map<String, Any>>
+                    val convertedDays = days.map { day ->
+                        Plan.Day(
+                            id = (day["id"] as Double).toInt(),
+                            exercises = (day["exercises"] as List<Map<String, Any>>).map { exercise ->
+                                Plan.ExerciseReference(
+                                    exerciseGroupId = (exercise["exercise_group_id"] as Double).toInt(),
+                                    exerciseId = (exercise["exercise_id"] as Double).toInt()
+                                )
+                            }
+                        )
+                    }
+                    val planObject = Plan(id = id, name = name, image = imagePath, days = convertedDays)
+
+                    val bundle = Bundle().apply {
+                        putParcelable("plan", planObject)
+                    }
+                    findNavController().navigate(R.id.navigation_plan_detail, bundle)
                 }
             }
         }
