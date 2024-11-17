@@ -1,7 +1,8 @@
 [
     {
         "id": 0,
-        "name": "Push Pull Legs",
+        "name": "Push Pull",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
@@ -83,6 +84,7 @@
     {
         "id": 1,
         "name": "Full Body",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
@@ -164,6 +166,7 @@
     {
         "id": 2,
         "name": "Abs",
+        "image": "plansimages/pic2.jpg",
         "days": [
             {
                 "id": 0,
@@ -220,6 +223,7 @@
     {
         "id": 3,
         "name": "For Beginners",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
@@ -289,6 +293,7 @@
     {
         "id": 4,
         "name": "Home",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
@@ -345,6 +350,7 @@
     {
         "id": 5,
         "name": "Powerlifting",
+        "image": "plansimages/pic2.jpg",
         "days": [
             {
                 "id": 0,
@@ -434,6 +440,7 @@
     {
         "id": 6,
         "name": "Full Body with an emphasis on back",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
@@ -511,6 +518,7 @@
     {
         "id": 7,
         "name": "Full Body with an emphasis on arms + shoulders",
+        "image": "plansimages/pic1.jpg",
         "days": [
             {
                 "id": 0,
