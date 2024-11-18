@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Push Pull",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/pushpull.jpg",
         "days": [
             {
                 "id": 0,
@@ -84,7 +84,7 @@
     {
         "id": 1,
         "name": "Full Body",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/fullbody.jpg",
         "days": [
             {
                 "id": 0,
@@ -166,7 +166,7 @@
     {
         "id": 2,
         "name": "Abs",
-        "image": "plansimages/pic2.jpg",
+        "image": "plansimages/abs.jpg",
         "days": [
             {
                 "id": 0,
@@ -223,7 +223,7 @@
     {
         "id": 3,
         "name": "For Beginners",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/beginners.jpg",
         "days": [
             {
                 "id": 0,
@@ -293,7 +293,7 @@
     {
         "id": 4,
         "name": "Home",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/home.jpg",
         "days": [
             {
                 "id": 0,
@@ -350,7 +350,7 @@
     {
         "id": 5,
         "name": "Powerlifting",
-        "image": "plansimages/pic2.jpg",
+        "image": "plansimages/powerlift.jpg",
         "days": [
             {
                 "id": 0,
@@ -440,7 +440,7 @@
     {
         "id": 6,
         "name": "Full Body with an emphasis on back",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/emphback.jpg",
         "days": [
             {
                 "id": 0,
@@ -518,7 +518,7 @@
     {
         "id": 7,
         "name": "Full Body with an emphasis on arms + shoulders",
-        "image": "plansimages/pic1.jpg",
+        "image": "plansimages/empharm.jpg",
         "days": [
             {
                 "id": 0,
