@@ -4,10 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="12dp"
-    app:cardElevation="8dp"
-    android:layout_margin="10dp"
-    android:clickable="true"
-    android:focusable="true">
+    app:cardElevation="4dp"
+    android:layout_margin="12dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
