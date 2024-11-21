@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.UWEFitnessApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,5 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Action bar color -->
         <item name="colorSurface">?attr/colorOnPrimary</item>
+        <item name="colorOnCardExtra">@color/white</item>
+        <item name="colorCardExtra">@color/black</item>
     </style>
 </resources>
