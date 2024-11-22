@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/exerciseItemImage"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_marginEnd="16dp"
             android:contentDescription="@string/exercises_card_image_alt"
             android:scaleType="centerCrop" />
