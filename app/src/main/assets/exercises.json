@@ -13,7 +13,8 @@
                     "images/inclinebenchsitups2.png",
                     "images/inclinebenchsitups3.png",
                     "images/inclinebenchsitups4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/1.mp4"
             },
             {
                 "id": 1,
@@ -23,7 +24,8 @@
                     "images/hanginglegraises1.png",
                     "images/hanginglegraises2.png",
                     "images/hanginglegraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/2.mp4"
             },
             {
                 "id": 2,
@@ -34,7 +36,8 @@
                     "images/dumbbellsidebends2.png",
                     "images/dumbbellsidebends3.png",
                     "images/dumbbellsidebends4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/3.mp4"
             },
             {
                 "id": 3,
@@ -44,7 +47,8 @@
                     "images/crunches1.png",
                     "images/crunches2.png",
                     "images/crunches3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/4.mp4"
             },
             {
                 "id": 4,
@@ -55,7 +59,8 @@
                     "images/situps2.png",
                     "images/situps3.png",
                     "images/situps4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/5.mp4"
             },
             {
                 "id": 5,
@@ -65,7 +70,8 @@
                     "images/legraises1.png",
                     "images/legraises2.png",
                     "images/legraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/6.mp4"
             },
             {
                 "id": 6,
@@ -77,7 +83,8 @@
                     "images/flatbenchlyinglegraise3.png",
                     "images/flatbenchlyinglegraise4.png",
                     "images/flatbenchlyinglegraise5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/7.mp4"
             },
             {
                 "id": 7,
@@ -88,7 +95,8 @@
                     "images/seatedjackknife2.png",
                     "images/seatedjackknife3.png",
                     "images/seatedjackknife4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/8.mp4"
             },
             {
                 "id": 8,
@@ -98,7 +106,8 @@
                     "images/twistinghipraise21.png",
                     "images/twistinghipraise22.png",
                     "images/twistinghipraise23.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/10.mp4"
             },
             {
                 "id": 9,
@@ -108,7 +117,8 @@
                     "images/bodyweightcrunch1.png",
                     "images/bodyweightcrunch2.png",
                     "images/bodyweightcrunch3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/12.mp4"
             },
             {
                 "id": 10,
@@ -118,7 +128,8 @@
                     "images/sidebridge1.png",
                     "images/sidebridge2.png",
                     "images/sidebridge3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/14.mp4"
             },
             {
                 "id": 11,
@@ -128,7 +139,8 @@
                     "images/bodyweighthipextension1.png",
                     "images/bodyweighthipextension2.png",
                     "images/bodyweighthipextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/83.mp4"
             },
             {
                 "id": 12,
@@ -138,7 +150,8 @@
                     "images/rotatingtextension1.png",
                     "images/rotatingtextension2.png",
                     "images/rotatingtextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/84.mp4"
             }
         ]
     },
@@ -155,7 +168,8 @@
                     "images/chinups1.png",
                     "images/chinups2.png",
                     "images/chinups3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/15.mp4"
             },
             {
                 "id": 1,
@@ -167,7 +181,8 @@
                     "images/deadlifts3.png",
                     "images/deadlifts4.png",
                     "images/deadlifts5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/16.mp4"
             },
             {
                 "id": 2,
@@ -177,7 +192,8 @@
                     "images/latpulldowns1.png",
                     "images/latpulldowns2.png",
                     "images/latpulldowns3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/17.mp4"
             },
             {
                 "id": 3,
@@ -189,7 +205,8 @@
                     "images/seatedrows3.png",
                     "images/seatedrows4.png",
                     "images/seatedrows5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/18.mp4"
             },
             {
                 "id": 4,
@@ -199,7 +216,8 @@
                     "images/onearmdumbbellrows1.png",
                     "images/onearmdumbbellrows2.png",
                     "images/onearmdumbbellrows3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/19.mp4"
             },
             {
                 "id": 5,
@@ -209,17 +227,19 @@
                     "images/barbellshrugs1.png",
                     "images/barbellshrugs2.png",
                     "images/barbellshrugs3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/20.mp4"
             },
             {
                 "id": 6,
-                "name": "Back Extension",
+                "name": "Back Extensions",
                 "description": "Muscle: Hamstrings\n\nStep 1: Position yourself into a back-extension station by placing your feet under the leg brace anchor so that it is hooked there.\n\nStep 2: With your upper thighs resting the bad, lock your hands behind your head and bend forward at the hips until your upper body is just short of being 90 degrees to the floor.\n\nStep 3: Slowly raise your torso until it's in line with your lower body, then lower it. Alternatively, you can hold onto a weight by bracing it with your arms across your chest and do the same motions.\n\n",
                 "images": [
                     "images/backextensions1.png",
                     "images/backextensions2.png",
                     "images/backextensions3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/22.mp4"
             },
             {
                 "id": 7,
@@ -230,7 +250,8 @@
                     "images/bentoverrow2.png",
                     "images/bentoverrow3.png",
                     "images/bentoverrow4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/23.mp4"
             },
             {
                 "id": 8,
@@ -240,7 +261,8 @@
                     "images/reversechinups1.png",
                     "images/reversechinups2.png",
                     "images/reversechinups3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/24.mp4"
             },
             {
                 "id": 9,
@@ -250,7 +272,8 @@
                     "images/bodyweightsuperman1.png",
                     "images/bodyweightsuperman2.png",
                     "images/bodyweightsuperman3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/86.mp4"
             },
             {
                 "id": 10,
@@ -260,7 +283,8 @@
                     "images/dumbbellsbentoverrow1.png",
                     "images/dumbbellsbentoverrow2.png",
                     "images/dumbbellsbentoverrow3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/87.mp4"
             },
             {
                 "id": 11,
@@ -270,7 +294,8 @@
                     "images/stabilityballhyperextension1.png",
                     "images/stabilityballhyperextension2.png",
                     "images/stabilityballhyperextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/88.mp4"
             },
             {
                 "id": 12,
@@ -280,7 +305,8 @@
                     "images/seatedbentoverrow1.png",
                     "images/seatedbentoverrow2.png",
                     "images/seatedbentoverrow3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/89.mp4"
             },
             {
                 "id": 13,
@@ -290,7 +316,8 @@
                     "images/tbarbentoverrow1.png",
                     "images/tbarbentoverrow2.png",
                     "images/tbarbentoverrow3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/90.mp4"
             }
         ]
     },
@@ -308,7 +335,8 @@
                     "images/curls2.png",
                     "images/curls3.png",
                     "images/curls4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/25.mp4"
             },
             {
                 "id": 1,
@@ -320,7 +348,8 @@
                     "images/barbellcurls3.png",
                     "images/barbellcurls4.png",
                     "images/barbellcurls5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/26.mp4"
             },
             {
                 "id": 2,
@@ -331,7 +360,8 @@
                     "images/preachercurls2.png",
                     "images/preachercurls3.png",
                     "images/preachercurls4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/27.mp4"
             },
             {
                 "id": 3,
@@ -342,7 +372,8 @@
                     "images/hammercurls2.png",
                     "images/hammercurls3.png",
                     "images/hammercurls4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/28.mp4"
             },
             {
                 "id": 4,
@@ -354,7 +385,8 @@
                     "images/concentrationcurls3.png",
                     "images/concentrationcurls4.png",
                     "images/concentrationcurls5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/29.mp4"
             },
             {
                 "id": 5,
@@ -365,7 +397,8 @@
                     "images/reversecurls2.png",
                     "images/reversecurls3.png",
                     "images/reversecurls4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/30.mp4"
             },
             {
                 "id": 6,
@@ -375,7 +408,8 @@
                     "images/cablebicepscurl1.png",
                     "images/cablebicepscurl2.png",
                     "images/cablebicepscurl3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/31.mp4"
             },
             {
                 "id": 7,
@@ -385,7 +419,8 @@
                     "images/lowpulleycurls1.png",
                     "images/lowpulleycurls2.png",
                     "images/lowpulleycurls3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/32.mp4"
             },
             {
                 "id": 8,
@@ -395,7 +430,8 @@
                     "images/lowpulleycablecrossover1.png",
                     "images/lowpulleycablecrossover2.png",
                     "images/lowpulleycablecrossover3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/33.mp4"
             },
             {
                 "id": 9,
@@ -405,7 +441,8 @@
                     "images/dumbbellbicepscurl_hammergriponbench_1.png",
                     "images/dumbbellbicepscurl_hammergriponbench_2.png",
                     "images/dumbbellbicepscurl_hammergriponbench_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/91.mp4"
             },
             {
                 "id": 10,
@@ -415,7 +452,8 @@
                     "images/dumbbellbicepscurl_hammergripstanding_1.png",
                     "images/dumbbellbicepscurl_hammergripstanding_2.png",
                     "images/dumbbellbicepscurl_hammergripstanding_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/92.mp4"
             },
             {
                 "id": 11,
@@ -425,7 +463,8 @@
                     "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_1.png",
                     "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_2.png",
                     "images/dumbbellbicepscurl_underhandgripconcentrationwithsinglearm_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/93.mp4"
             },
             {
                 "id": 12,
@@ -435,7 +474,8 @@
                     "images/dumbbellbicepscurl_underhandgriponbench_1.png",
                     "images/dumbbellbicepscurl_underhandgriponbench_2.png",
                     "images/dumbbellbicepscurl_underhandgriponbench_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/94.mp4"
             },
             {
                 "id": 13,
@@ -445,7 +485,8 @@
                     "images/dumbbellbicepscurlseated_underhandgrip_1.png",
                     "images/dumbbellbicepscurlseated_underhandgrip_2.png",
                     "images/dumbbellbicepscurlseated_underhandgrip_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/96.mp4"
             },
             {
                 "id": 14,
@@ -455,7 +496,8 @@
                     "images/dumbbellbicepscurlseated_hammergrip_1.png",
                     "images/dumbbellbicepscurlseated_hammergrip_2.png",
                     "images/dumbbellbicepscurlseated_hammergrip_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/95.mp4"
             },
             {
                 "id": 15,
@@ -465,7 +507,8 @@
                     "images/stabilityballdumbbellbicepscurl_hammergrip_1.png",
                     "images/stabilityballdumbbellbicepscurl_hammergrip_2.png",
                     "images/stabilityballdumbbellbicepscurl_hammergrip_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/97.mp4"
             },
             {
                 "id": 16,
@@ -475,7 +518,8 @@
                     "images/stabilityballdumbbell_bicepscurl_underhand_grip_1.png",
                     "images/stabilityballdumbbell_bicepscurl_underhand_grip_2.png",
                     "images/stabilityballdumbbell_bicepscurl_underhand_grip_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/98.mp4"
             },
             {
                 "id": 17,
@@ -485,7 +529,8 @@
                     "images/stabilityballdumbbellbicepscurlseated1.png",
                     "images/stabilityballdumbbellbicepscurlseated2.png",
                     "images/stabilityballdumbbellbicepscurlseated3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/99.mp4"
             },
             {
                 "id": 18,
@@ -495,7 +540,8 @@
                     "images/stabilityballdumbbellbicepspreachercurl1.png",
                     "images/stabilityballdumbbellbicepspreachercurl2.png",
                     "images/stabilityballdumbbellbicepspreachercurl3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/100.mp4"
             },
             {
                 "id": 19,
@@ -505,7 +551,8 @@
                     "images/underhandgripproneonaninclinebench1.png",
                     "images/underhandgripproneonaninclinebench2.png",
                     "images/underhandgripproneonaninclinebench3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/101.mp4"
             }
         ]
     },
@@ -522,7 +569,8 @@
                     "images/toeraises1.png",
                     "images/toeraises2.png",
                     "images/toeraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/34.mp4"
             },
             {
                 "id": 1,
@@ -532,7 +580,8 @@
                     "images/onelegtoeraises1.png",
                     "images/onelegtoeraises2.png",
                     "images/onelegtoeraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/35.mp4"
             },
             {
                 "id": 2,
@@ -542,7 +591,8 @@
                     "images/seatedcalfraises1.png",
                     "images/seatedcalfraises2.png",
                     "images/seatedcalfraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/36.mp4"
             },
             {
                 "id": 3,
@@ -552,7 +602,8 @@
                     "images/barbellcalfraise_seated_1.png",
                     "images/barbellcalfraise_seated_2.png",
                     "images/barbellcalfraise_seated_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/102.mp4"
             },
             {
                 "id": 4,
@@ -562,7 +613,8 @@
                     "images/barbellcalfraisewithsingleleg_seated_1.png",
                     "images/barbellcalfraisewithsingleleg_seated_2.png",
                     "images/barbellcalfraisewithsingleleg_seated_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/103.mp4"
             },
             {
                 "id": 5,
@@ -572,7 +624,8 @@
                     "images/dumbbellcalfjump1.png",
                     "images/dumbbellcalfjump2.png",
                     "images/dumbbellcalfjump3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/104.mp4"
             },
             {
                 "id": 6,
@@ -582,7 +635,8 @@
                     "images/dumbbellcalfraise_seated_1.png",
                     "images/dumbbellcalfraise_seated_2.png",
                     "images/dumbbellcalfraise_seated_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/105.mp4"
             },
             {
                 "id": 7,
@@ -592,7 +646,8 @@
                     "images/standingbarbellcalfraise1.png",
                     "images/standingbarbellcalfraise2.png",
                     "images/standingbarbellcalfraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/106.mp4"
             },
             {
                 "id": 8,
@@ -602,7 +657,8 @@
                     "images/standingdumbbellcalfraise1.png",
                     "images/standingdumbbellcalfraise2.png",
                     "images/standingdumbbellcalfraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/107.mp4"
             }
         ]
     },
@@ -619,7 +675,8 @@
                     "images/benchpresses1.png",
                     "images/benchpresses2.png",
                     "images/benchpresses3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/37.mp4"
             },
             {
                 "id": 1,
@@ -629,7 +686,8 @@
                     "images/inclinepresses1.png",
                     "images/inclinepresses2.png",
                     "images/inclinepresses3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/38.mp4"
             },
             {
                 "id": 2,
@@ -640,7 +698,8 @@
                     "images/parallelbardips2.png",
                     "images/parallelbardips3.png",
                     "images/parallelbardips4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/40.mp4"
             },
             {
                 "id": 3,
@@ -650,7 +709,8 @@
                     "images/cablecrossoverflys1.png",
                     "images/cablecrossoverflys2.png",
                     "images/cablecrossoverflys3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/41.mp4"
             },
             {
                 "id": 4,
@@ -660,7 +720,8 @@
                     "images/dumbbellflys1.png",
                     "images/dumbbellflys2.png",
                     "images/dumbbellflys3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/42.mp4"
             },
             {
                 "id": 5,
@@ -671,7 +732,8 @@
                     "images/dumbbellpullovers2.png",
                     "images/dumbbellpullovers3.png",
                     "images/dumbbellpullovers4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/43.mp4"
             },
             {
                 "id": 6,
@@ -681,18 +743,20 @@
                     "images/push_ups1.png",
                     "images/push_ups2.png",
                     "images/push_ups3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/44.mp4"
             },
             {
                 "id": 7,
-                "name": "Dumbell Press",
+                "name": "Dumbbell Press",
                 "description": "Muscle: Pectoralis\n\nStep 1: Lie flat on the bench with feet on the floor for stability, your arms extended upward, and your hands facing in toward each other holding the dumbbells: Inhale and lower the dumbbells to chest level, bending your elbows and rotating your forearms to bring your hand in pronation Press the dumbbells back up and do an isometric contraction to isolate the stress on the pectorals; exhale as you complete the movement.",
                 "images": [
                     "images/dumbbellpress1.png",
                     "images/dumbbellpress2.png",
                     "images/dumbbellpress3.png",
                     "images/dumbbellpress4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/45.mp4"
             },
             {
                 "id": 8,
@@ -702,7 +766,8 @@
                     "images/barbellbenchpress1.png",
                     "images/barbellbenchpress2.png",
                     "images/barbellbenchpress3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/46.mp4"
             },
             {
                 "id": 9,
@@ -712,7 +777,8 @@
                     "images/pecdeckflies1.png",
                     "images/pecdeckflies2.png",
                     "images/pecdeckflies3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/47.mp4"
             },
             {
                 "id": 10,
@@ -722,7 +788,8 @@
                     "images/declinepushup1.png",
                     "images/declinepushup2.png",
                     "images/declinepushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/108.mp4"
             },
             {
                 "id": 11,
@@ -733,7 +800,8 @@
                     "images/divebomberpushup2.png",
                     "images/divebomberpushup3.png",
                     "images/divebomberpushup4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/109.mp4"
             },
             {
                 "id": 12,
@@ -743,7 +811,8 @@
                     "images/dumbbellfloorchestpress1.png",
                     "images/dumbbellfloorchestpress2.png",
                     "images/dumbbellfloorchestpress3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/110.mp4"
             },
             {
                 "id": 13,
@@ -753,7 +822,8 @@
                     "images/dumbbellpushup1.png",
                     "images/dumbbellpushup2.png",
                     "images/dumbbellpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/111.mp4"
             },
             {
                 "id": 14,
@@ -763,7 +833,8 @@
                     "images/inclinepushup1.png",
                     "images/inclinepushup1.png",
                     "images/inclinepushup1.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/112.mp4"
             },
             {
                 "id": 15,
@@ -775,7 +846,8 @@
                     "images/medicineballpushup_alternating_3.png",
                     "images/medicineballpushup_alternating_4.png",
                     "images/medicineballpushup_alternating_5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/113.mp4"
             },
             {
                 "id": 16,
@@ -785,7 +857,8 @@
                     "images/modifiedpushup1.png",
                     "images/modifiedpushup2.png",
                     "images/modifiedpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/114.mp4"
             },
             {
                 "id": 17,
@@ -795,7 +868,8 @@
                     "images/singlearmpushup1.png",
                     "images/singlearmpushup2.png",
                     "images/singlearmpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/115.mp4"
             },
             {
                 "id": 18,
@@ -805,7 +879,8 @@
                     "images/stabilityballflatdumbbellfly1.png",
                     "images/stabilityballflatdumbbellfly2.png",
                     "images/stabilityballflatdumbbellfly3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/116.mp4"
             },
             {
                 "id": 19,
@@ -815,7 +890,8 @@
                     "images/stabilityballflatdumbbellchestpress1.png",
                     "images/stabilityballflatdumbbellchestpress2.png",
                     "images/stabilityballflatdumbbellchestpress3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/117.mp4"
             },
             {
                 "id": 20,
@@ -825,7 +901,8 @@
                     "images/stabilityballpushup1.png",
                     "images/stabilityballpushup2.png",
                     "images/stabilityballpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/118.mp4"
             },
             {
                 "id": 21,
@@ -835,7 +912,8 @@
                     "images/weightedpushup1.png",
                     "images/weightedpushup2.png",
                     "images/weightedpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/119.mp4"
             }
         ]
     },
@@ -852,7 +930,8 @@
                     "images/wristcurls1.png",
                     "images/wristcurls2.png",
                     "images/wristcurls3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/48.mp4"
             },
             {
                 "id": 1,
@@ -862,7 +941,8 @@
                     "images/wristcurls21.png",
                     "images/wristcurls22.png",
                     "images/wristcurls23.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/48.mp4"
             },
             {
                 "id": 2,
@@ -872,7 +952,8 @@
                     "images/dumbbellwristtwist1.png",
                     "images/dumbbellwristtwist2.png",
                     "images/dumbbellwristtwist3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/120.mp4"
             },
             {
                 "id": 3,
@@ -882,7 +963,8 @@
                     "images/standingwristcurl1.png",
                     "images/standingwristcurl2.png",
                     "images/standingwristcurl3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/121.mp4"
             }
         ]
     },
@@ -900,7 +982,8 @@
                     "images/squats2.png",
                     "images/squats3.png",
                     "images/squats4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/50.mp4"
             },
             {
                 "id": 1,
@@ -911,7 +994,8 @@
                     "images/angledlegpresses2.png",
                     "images/angledlegpresses3.png",
                     "images/angledlegpresses4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/51.mp4"
             },
             {
                 "id": 2,
@@ -921,7 +1005,8 @@
                     "images/legextensions1.png",
                     "images/legextensions2.png",
                     "images/legextensions3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/52.mp4"
             },
             {
                 "id": 3,
@@ -931,7 +1016,8 @@
                     "images/dumbbelllunges1.png",
                     "images/dumbbelllunges2.png",
                     "images/dumbbelllunges3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/53.mp4"
             },
             {
                 "id": 4,
@@ -942,7 +1028,8 @@
                     "images/cablebackkicks2.png",
                     "images/cablebackkicks3.png",
                     "images/cablebackkicks4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/54.mp4"
             },
             {
                 "id": 5,
@@ -953,7 +1040,8 @@
                     "images/dumbbellsquats2.png",
                     "images/dumbbellsquats3.png",
                     "images/dumbbellsquats4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/55.mp4"
             },
             {
                 "id": 6,
@@ -964,7 +1052,8 @@
                     "images/frontsquats2.png",
                     "images/frontsquats3.png",
                     "images/frontsquats4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/56.mp4"
             },
             {
                 "id": 7,
@@ -975,7 +1064,8 @@
                     "images/powersquats2.png",
                     "images/powersquats3.png",
                     "images/powersquats4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/57.mp4"
             },
             {
                 "id": 8,
@@ -985,7 +1075,8 @@
                     "images/hacksquats1.png",
                     "images/hacksquats2.png",
                     "images/hacksquats3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/58.mp4"
             },
             {
                 "id": 9,
@@ -995,7 +1086,8 @@
                     "images/seatedlegcurls1.png",
                     "images/seatedlegcurls2.png",
                     "images/seatedlegcurls3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/59.mp4"
             },
             {
                 "id": 10,
@@ -1005,7 +1097,8 @@
                     "images/barbelllunge1.png",
                     "images/barbelllunge2.png",
                     "images/barbelllunge3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/122.mp4"
             },
             {
                 "id": 11,
@@ -1015,7 +1108,8 @@
                     "images/barbellsquat_assisted_1.png",
                     "images/barbellsquat_assisted_2.png",
                     "images/barbellsquat_assisted_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/123.mp4"
             },
             {
                 "id": 12,
@@ -1025,7 +1119,8 @@
                     "images/barbellsquatoverhead1.png",
                     "images/barbellsquatoverhead2.png",
                     "images/barbellsquatoverhead3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/124.mp4"
             },
             {
                 "id": 13,
@@ -1036,7 +1131,8 @@
                     "images/benchjump2.png",
                     "images/benchjump3.png",
                     "images/benchjump4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/125.mp4"
             },
             {
                 "id": 14,
@@ -1047,7 +1143,8 @@
                     "images/bulgariansplitsquat2.png",
                     "images/bulgariansplitsquat3.png",
                     "images/bulgariansplitsquat4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/126.mp4"
             },
             {
                 "id": 15,
@@ -1057,7 +1154,8 @@
                     "images/dumbbellsidelunge1.png",
                     "images/dumbbellsidelunge2.png",
                     "images/dumbbellsidelunge3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/128.mp4"
             },
             {
                 "id": 16,
@@ -1067,7 +1165,8 @@
                     "images/goodmorning1.png",
                     "images/goodmorning2.png",
                     "images/goodmorning3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/129.mp4"
             },
             {
                 "id": 17,
@@ -1077,7 +1176,8 @@
                     "images/onearmsidedeadlift1.png",
                     "images/onearmsidedeadlift2.png",
                     "images/onearmsidedeadlift3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/130.mp4"
             },
             {
                 "id": 18,
@@ -1087,7 +1187,8 @@
                     "images/singlelegsquat1.png",
                     "images/singlelegsquat2.png",
                     "images/singlelegsquat3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/131.mp4"
             }
         ]
     },
@@ -1104,7 +1205,8 @@
                     "images/backpresses1.png",
                     "images/backpresses2.png",
                     "images/backpresses3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/60.mp4"
             },
             {
                 "id": 1,
@@ -1114,7 +1216,8 @@
                     "images/seatedfrontpresses1.png",
                     "images/seatedfrontpresses2.png",
                     "images/seatedfrontpresses3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/61.mp4"
             },
             {
                 "id": 2,
@@ -1124,7 +1227,8 @@
                     "images/seateddumbelprese1.png",
                     "images/seateddumbelprese2.png",
                     "images/seateddumbelprese3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/62.mp4"
             },
             {
                 "id": 3,
@@ -1136,7 +1240,8 @@
                     "images/lowpulleylateralraise3.png",
                     "images/lowpulleylateralraise4.png",
                     "images/lowpulleylateralraise5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/63.mp4"
             },
             {
                 "id": 4,
@@ -1147,7 +1252,8 @@
                     "images/uprightrow2.png",
                     "images/uprightrow3.png",
                     "images/uprightrow4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/64.mp4"
             },
             {
                 "id": 5,
@@ -1158,7 +1264,8 @@
                     "images/dumbbellreardeltoidraises2.png",
                     "images/dumbbellreardeltoidraises3.png",
                     "images/dumbbellreardeltoidraises4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/65.mp4"
             },
             {
                 "id": 6,
@@ -1169,7 +1276,8 @@
                     "images/lateralraises2.png",
                     "images/lateralraises3.png",
                     "images/lateralraises4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/66.mp4"
             },
             {
                 "id": 7,
@@ -1180,7 +1288,8 @@
                     "images/frontraises2.png",
                     "images/frontraises3.png",
                     "images/frontraises4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/67.mp4"
             },
             {
                 "id": 8,
@@ -1190,7 +1299,8 @@
                     "images/barbellfrontraises1.png",
                     "images/barbellfrontraises2.png",
                     "images/barbellfrontraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/68.mp4"
             },
             {
                 "id": 9,
@@ -1200,7 +1310,8 @@
                     "images/lowpulleybentoverlateralraises1.png",
                     "images/lowpulleybentoverlateralraises2.png",
                     "images/lowpulleybentoverlateralraises3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/70.mp4"
             },
             {
                 "id": 10,
@@ -1212,7 +1323,8 @@
                     "images/lowpulleyfrontraises3.png",
                     "images/lowpulleyfrontraises4.png",
                     "images/lowpulleyfrontraises5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/71.mp4"
             },
             {
                 "id": 11,
@@ -1223,7 +1335,8 @@
                     "images/pecdeckreardeltlaterals2.png",
                     "images/pecdeckreardeltlaterals3.png",
                     "images/pecdeckreardeltlaterals4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/72.mp4"
             },
             {
                 "id": 12,
@@ -1234,7 +1347,8 @@
                     "images/arnoldpress2.png",
                     "images/arnoldpress3.png",
                     "images/arnoldpress4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/132.mp4"
             },
             {
                 "id": 13,
@@ -1244,7 +1358,8 @@
                     "images/dumbbelllateralraisewitharmsbent1.png",
                     "images/dumbbelllateralraisewitharmsbent2.png",
                     "images/dumbbelllateralraisewitharmsbent3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/134.mp4"
             },
             {
                 "id": 14,
@@ -1254,7 +1369,8 @@
                     "images/dumbbellscarecrow1.png",
                     "images/dumbbellscarecrow2.png",
                     "images/dumbbellscarecrow3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/135.mp4"
             },
             {
                 "id": 15,
@@ -1264,7 +1380,8 @@
                     "images/dumbbellshoulderpress1.png",
                     "images/dumbbellshoulderpress2.png",
                     "images/dumbbellshoulderpress3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/136.mp4"
             },
             {
                 "id": 16,
@@ -1274,7 +1391,8 @@
                     "images/frontweightedraise1.png",
                     "images/frontweightedraise2.png",
                     "images/frontweightedraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/137.mp4"
             },
             {
                 "id": 17,
@@ -1284,7 +1402,8 @@
                     "images/lateralweightedraise1.png",
                     "images/lateralweightedraise2.png",
                     "images/lateralweightedraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/138.mp4"
             },
             {
                 "id": 18,
@@ -1294,7 +1413,8 @@
                     "images/militarypressbehindtheneck_standing_1.png",
                     "images/militarypressbehindtheneck_standing_2.png",
                     "images/militarypressbehindtheneck_standing_3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/139.mp4"
             },
             {
                 "id": 19,
@@ -1304,7 +1424,8 @@
                     "images/seateddumbbellfrontraise1.png",
                     "images/seateddumbbellfrontraise2.png",
                     "images/seateddumbbellfrontraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/140.mp4"
             },
             {
                 "id": 20,
@@ -1314,7 +1435,8 @@
                     "images/stabilityballlateralraise1.png",
                     "images/stabilityballlateralraise2.png",
                     "images/stabilityballlateralraise3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/141.mp4"
             }
         ]
     },
@@ -1331,7 +1453,8 @@
                     "images/closegripbenchprese1.png",
                     "images/closegripbenchprese2.png",
                     "images/closegripbenchprese3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/73.mp4"
             },
             {
                 "id": 1,
@@ -1341,7 +1464,8 @@
                     "images/pushdowns1.png",
                     "images/pushdowns2.png",
                     "images/pushdowns3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/74.mp4"
             },
             {
                 "id": 2,
@@ -1352,7 +1476,8 @@
                     "images/tricepsextensions2.png",
                     "images/tricepsextensions3.png",
                     "images/tricepsextensions4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/75.mp4"
             },
             {
                 "id": 3,
@@ -1362,7 +1487,8 @@
                     "images/tricepskickbacks1.png",
                     "images/tricepskickbacks2.png",
                     "images/tricepskickbacks3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/76.mp4"
             },
             {
                 "id": 4,
@@ -1374,7 +1500,8 @@
                     "images/onearmsextensions3.png",
                     "images/onearmsextensions4.png",
                     "images/onearmsextensions5.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/77.mp4"
             },
             {
                 "id": 5,
@@ -1385,7 +1512,8 @@
                     "images/bartricepsextensions2.png",
                     "images/bartricepsextensions3.png",
                     "images/bartricepsextensions4.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/78.mp4"
             },
             {
                 "id": 6,
@@ -1395,7 +1523,8 @@
                     "images/dumbbelltricepsextension1.png",
                     "images/dumbbelltricepsextension2.png",
                     "images/dumbbelltricepsextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/79.mp4"
             },
             {
                 "id": 7,
@@ -1405,7 +1534,8 @@
                     "images/tricepsdips1.png",
                     "images/tricepsdips2.png",
                     "images/tricepsdips3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/80.mp4"
             },
             {
                 "id": 8,
@@ -1415,7 +1545,8 @@
                     "images/tricepspushdown1.png",
                     "images/tricepspushdown2.png",
                     "images/tricepspushdown3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/81.mp4"
             },
             {
                 "id": 9,
@@ -1425,7 +1556,8 @@
                     "images/onearmreversepushdown1.png",
                     "images/onearmreversepushdown2.png",
                     "images/onearmreversepushdown3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/82.mp4"
             },
             {
                 "id": 10,
@@ -1435,7 +1567,8 @@
                     "images/diamondpushup1.png",
                     "images/diamondpushup2.png",
                     "images/diamondpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/142.mp4"
             },
             {
                 "id": 11,
@@ -1445,7 +1578,8 @@
                     "images/diamondpushuponbench1.png",
                     "images/diamondpushuponbench2.png",
                     "images/diamondpushuponbench3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/143.mp4"
             },
             {
                 "id": 12,
@@ -1455,7 +1589,8 @@
                     "images/dumbbellrowkickback1.png",
                     "images/dumbbellrowkickback2.png",
                     "images/dumbbellrowkickback3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/144.mp4"
             },
             {
                 "id": 13,
@@ -1465,7 +1600,8 @@
                     "images/lyingsinglearmpushup1.png",
                     "images/lyingsinglearmpushup2.png",
                     "images/lyingsinglearmpushup3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/145.mp4"
             },
             {
                 "id": 14,
@@ -1475,7 +1611,8 @@
                     "images/seatedtricepsextension1.png",
                     "images/seatedtricepsextension2.png",
                     "images/seatedtricepsextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/146.mp4"
             },
             {
                 "id": 15,
@@ -1485,7 +1622,8 @@
                     "images/stabilityballfrenchpress1.png",
                     "images/stabilityballfrenchpress2.png",
                     "images/stabilityballfrenchpress3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/147.mp4"
             },
             {
                 "id": 16,
@@ -1495,7 +1633,8 @@
                     "images/stabilityballpullover1.png",
                     "images/stabilityballpullover2.png",
                     "images/stabilityballpullover3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/148.mp4"
             },
             {
                 "id": 17,
@@ -1505,7 +1644,8 @@
                     "images/stabilityballtricepsextension1.png",
                     "images/stabilityballtricepsextension2.png",
                     "images/stabilityballtricepsextension3.png"
-                ]
+                ],
+                "video": "https://vgfit.com/fitness_and_bodybuilding/149.mp4"
             }
         ]
     }

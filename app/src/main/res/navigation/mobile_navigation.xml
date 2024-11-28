@@ -56,6 +56,11 @@
             app:argType="com.uwe.fitnessapp.models.Plan" />
     </fragment>
 
+    <fragment
+        android:id="@+id/navigation_video"
+        android:name="com.uwe.fitnessapp.ui.exercises.components.VideoFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_video" />
 
     <fragment
         android:id="@+id/navigation_log"

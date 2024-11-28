@@ -9,8 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
@@ -24,7 +22,6 @@ class ExercisesFragment : Fragment() {
     private var _binding: FragmentExercisesBinding? = null
     private lateinit var exercisesData: ArrayList<ExercisesGroup?>
 
-    // This property is only valid between onCreateView and onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -66,7 +63,6 @@ class ExercisesFragment : Fragment() {
 
         binding.cardsContainer.addView(cardView)
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()

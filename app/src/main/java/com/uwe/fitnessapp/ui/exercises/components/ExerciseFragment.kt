@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.tabs.TabLayoutMediator
+import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseBinding
 
 class ExerciseFragment : Fragment() {
@@ -19,22 +21,33 @@ class ExerciseFragment : Fragment() {
 
         val images: Array<String>? = arguments?.getStringArray("images")
         val description = arguments?.getString("description")
+        val videoUrl = arguments?.getString("video")
 
         if (images != null) {
             val viewPager = binding.viewPager
             val adapter = ExerciseImageAdapter(images.toList())
             viewPager.adapter = adapter
 
-            // Настройка TabLayoutMediator для синхронизации с ViewPager
             val tabLayout = binding.tabLayout
             TabLayoutMediator(tabLayout, viewPager) { _, _ -> }.attach()
         }
 
-        // Устанавливаем описание в TextView
         if (description != null) {
-            binding.descriptionTextView.text = description
+            val muscleText = description.substringBefore("\n\n")
+            val stepsText = description.substringAfter("\n\n")
+
+            binding.muscleTextView.text = muscleText
+            binding.descriptionTextView.text = stepsText
         }
 
+        binding.playVideoButton.setOnClickListener {
+            if (!videoUrl.isNullOrEmpty()) {
+                val bundle = Bundle().apply {
+                    putString("video", videoUrl)
+                }
+                findNavController().navigate(R.id.navigation_video, bundle)
+            }
+        }
         return binding.root
     }
 

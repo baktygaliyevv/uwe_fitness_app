@@ -15,6 +15,7 @@ data class ExercisesGroup(
         val id: Int,
         val name: String,
         val description: String,
-        val images: List<String>
+        val images: List<String>,
+        val video: String
     ) : Parcelable
 }
