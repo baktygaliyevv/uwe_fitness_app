@@ -15,5 +15,6 @@
         <item name="colorSurface">?attr/colorOnPrimary</item>
         <item name="colorOnCardExtra">@color/black</item>
         <item name="colorCardExtra">@color/white</item>
+        <item name="android:navigationBarColor">?attr/colorOnPrimary</item>
     </style>
 </resources>
