@@ -41,6 +41,7 @@ class ExerciseListFragment : Fragment() {
             val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), exercise.images[0])
             addCard(exercise.name, drawable) {
                 findNavController().navigate(R.id.navigation_exercises_exercise, Bundle().apply {
+                    putString("exerciseId", exercise.id.toString())
                     putString("label", exercise.name)
                     putStringArray("images", exercise.images.toTypedArray())
                     putString("description", exercise.description)

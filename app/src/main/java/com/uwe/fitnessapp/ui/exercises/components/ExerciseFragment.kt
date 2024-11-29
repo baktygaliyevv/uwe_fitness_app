@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.tabs.TabLayoutMediator
+import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseBinding
 
 class ExerciseFragment : Fragment() {
@@ -31,6 +33,19 @@ class ExerciseFragment : Fragment() {
 
         if (description != null) {
             binding.descriptionTextView.text = description
+        }
+
+        binding.addLogButton.setOnClickListener {
+            val exerciseId = arguments?.getInt("exerciseId") ?: -1
+            val exerciseName = arguments?.getString("label") ?: "Exercise"
+
+            if (exerciseId != -1) {
+                val bundle = Bundle().apply {
+                    putInt("exerciseId", exerciseId)
+                    putString("exerciseName", exerciseName)
+                }
+                findNavController().navigate(R.id.navigation_transition, bundle)
+            }
         }
 
         return binding.root
