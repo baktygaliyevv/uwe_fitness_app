@@ -1,4 +1,4 @@
-package com.uwe.fitnessapp.ui.exercises.components
+package com.uwe.fitnessapp.ui.log
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,6 +15,8 @@ import com.uwe.fitnessapp.models.LogEntry
 import com.uwe.fitnessapp.models.SetLog
 import com.uwe.fitnessapp.utils.SaveToJson
 import com.uwe.fitnessapp.utils.getCurrentDate
+import com.uwe.fitnessapp.utils.readJSONFromFilesDir
+import java.io.File
 
 class TransitionFragment : Fragment() {
 
@@ -28,6 +30,7 @@ class TransitionFragment : Fragment() {
 
         val exerciseName = arguments?.getString("exerciseName") ?: "Exercise"
         val exerciseId = arguments?.getInt("exerciseId") ?: -1
+        val exerciseGroupId = arguments?.getInt("exerciseGroupId") ?: -1
 
         binding.exerciseTitle.text = exerciseName
 
@@ -36,7 +39,7 @@ class TransitionFragment : Fragment() {
             val reps = binding.repsInput.text.toString().toIntOrNull()
 
             if (weights != null && reps != null) {
-                saveLogData(exerciseId, exerciseName, weights, reps)
+                saveLogData(exerciseGroupId, exerciseId, exerciseName, weights, reps)
                 findNavController().popBackStack()
             } else {
                 if (weights == null) binding.weightsInput.error = "Please enter a valid weight"
@@ -47,27 +50,46 @@ class TransitionFragment : Fragment() {
         return binding.root
     }
 
-    private fun saveLogData(exerciseId: Int, exerciseName: String, weights: Float, reps: Int) {
-        val logsJson = ReadJSON(requireContext(), "logs.json")
-        val logs: MutableList<LogEntry> = Gson().fromJson(
-            logsJson, object : TypeToken<MutableList<LogEntry>>() {}.type
-        )
+    private fun saveLogData(
+        exerciseGroupId: Int,
+        exerciseId: Int,
+        exerciseName: String,
+        weights: Float,
+        reps: Int
+    ) {
+        try {
+            val file = File(requireContext().filesDir, "logs.json")
+            if (!file.exists()) {
+                file.writeText("[]")
+            }
 
-        val currentDate = getCurrentDate()
+            val logsJson = file.readText()
+            val logs: MutableList<LogEntry> = Gson().fromJson(
+                logsJson, object : TypeToken<MutableList<LogEntry>>() {}.type
+            )
 
-        val dateLog = logs.find { it.date == currentDate } ?: LogEntry(currentDate, mutableListOf()).also {
-            logs.add(it)
+            val currentDate = getCurrentDate()
+
+            val dateLog = logs.find { it.date == currentDate } ?: LogEntry(currentDate, mutableListOf()).also {
+                logs.add(it)
+            }
+            val exerciseLog = dateLog.exercises.find {
+                it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId
+            } ?: ExerciseLog(
+                exercise_group_id = exerciseGroupId,
+                exercise_id = exerciseId,
+                sets = mutableListOf()
+            ).also {
+                dateLog.exercises.add(it)
+            }
+            exerciseLog.sets.add(SetLog(weights.toString(), reps))
+
+            SaveToJson(requireContext(), "logs.json", logs)
+        } catch (e: Exception) {
+            android.util.Log.e("SaveLogData", "Error: $e")
         }
-        val exerciseLog = dateLog.exercises.find { it.id == exerciseId } ?: ExerciseLog(
-            id = exerciseId,
-            name = exerciseName,
-            sets = mutableListOf()).also {
-            dateLog.exercises.add(it)
-        }
-        exerciseLog.sets.add(SetLog(weights.toString(), reps))
-
-        SaveToJson(requireContext(),"logs.json", logs)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

@@ -65,14 +65,26 @@
 
     <fragment
         android:id="@+id/navigation_transition"
-        android:name="com.uwe.fitnessapp.ui.exercises.components.TransitionFragment"
-        android:label="Transition"
+        android:name="com.uwe.fitnessapp.ui.log.TransitionFragment"
         tools:layout="@layout/fragment_transition">
+        <argument
+            android:name="exerciseGroupId"
+            app:argType="integer" />
         <argument
             android:name="exerciseId"
             app:argType="integer" />
         <argument
             android:name="exerciseName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_exercise_log"
+        android:name="com.uwe.fitnessapp.ui.log.ExerciseLogFragment"
+        android:label="Exercises"
+        tools:layout="@layout/fragment_exercise_log">
+        <argument
+            android:name="date"
             app:argType="string" />
     </fragment>
 

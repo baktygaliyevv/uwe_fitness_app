@@ -11,8 +11,8 @@ data class LogEntry(
 
 @Parcelize
 data class ExerciseLog(
-    val id: Int,
-    val name: String,
+    val exercise_group_id: Int,
+    val exercise_id: Int,
     val sets: MutableList<SetLog>
 ) : Parcelable
 

@@ -2,10 +2,15 @@ package com.uwe.fitnessapp.utils
 
 import android.content.Context
 import com.google.gson.Gson
+import java.io.File
 
-fun SaveToJson(context: Context, fileName: String, data: Any) {
-    val jsonString = Gson().toJson(data)
-    context.openFileOutput(fileName, Context.MODE_PRIVATE).use {
-        it.write(jsonString.toByteArray())
+fun SaveToJson(context: Context, path: String, data: Any) {
+    try {
+        val file = File(context.filesDir, path)
+        val jsonString = Gson().toJson(data)
+        file.writeText(jsonString)
+    } catch (e: Exception) {
+        android.util.Log.e("[SaveToJson]", "Error saving JSON: $e.")
+        e.printStackTrace()
     }
 }

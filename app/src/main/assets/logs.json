@@ -3,8 +3,8 @@
     "date": "29 Nov 2024",
     "exercises": [
       {
-        "id": 0,
-        "name": "Incline Bench Sit-Ups",
+        "exercise_group_id": 0,
+        "exercise_id": 1,
         "sets": [
           {
             "weight": "12 kg",
@@ -22,8 +22,8 @@
     "date": "28 Nov 2024",
     "exercises": [
       {
-        "id": 1,
-        "name": "Hanging Leg Raises",
+        "exercise_group_id": 0,
+        "exercise_id": 3,
         "sets": [
           {
             "weight": "15 kg",

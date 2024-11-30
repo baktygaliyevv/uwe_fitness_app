@@ -36,11 +36,13 @@ class ExerciseFragment : Fragment() {
         }
 
         binding.addLogButton.setOnClickListener {
+            val groupId = arguments?.getInt("exerciseGroupId") ?: -1
             val exerciseId = arguments?.getInt("exerciseId") ?: -1
             val exerciseName = arguments?.getString("label") ?: "Exercise"
 
             if (exerciseId != -1) {
                 val bundle = Bundle().apply {
+                    putInt("exerciseGroupId", groupId)
                     putInt("exerciseId", exerciseId)
                     putString("exerciseName", exerciseName)
                 }
