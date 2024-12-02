@@ -69,6 +69,47 @@
         tools:layout="@layout/fragment_log" />
 
     <fragment
+        android:id="@+id/navigation_transition"
+        android:name="com.uwe.fitnessapp.ui.log.TransitionFragment"
+        tools:layout="@layout/fragment_transition">
+        <argument
+            android:name="exerciseGroupId"
+            app:argType="integer" />
+        <argument
+            android:name="exerciseId"
+            app:argType="integer" />
+        <argument
+            android:name="exerciseName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_exercise_log"
+        android:name="com.uwe.fitnessapp.ui.log.ExerciseLogFragment"
+        android:label="Exercises"
+        tools:layout="@layout/fragment_exercise_log">
+        <argument
+            android:name="date"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_exercise_sets"
+        android:name="com.uwe.fitnessapp.ui.log.ExerciseSetsFragment"
+        android:label="Exercise Sets"
+        tools:layout="@layout/fragment_exercise_sets">
+        <argument
+            android:name="exerciseGroupId"
+            app:argType="integer" />
+        <argument
+            android:name="exerciseId"
+            app:argType="integer" />
+        <argument
+            android:name="exerciseName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
         android:id="@+id/navigation_tools"
         android:name="com.uwe.fitnessapp.ui.tools.ToolsFragment"
         android:label="@string/title_tools"

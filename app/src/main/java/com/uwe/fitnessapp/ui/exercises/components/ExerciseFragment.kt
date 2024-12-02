@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.tabs.TabLayoutMediator
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseBinding
+import com.uwe.fitnessapp.utils.LogUtils
 
 class ExerciseFragment : Fragment() {
     private var _binding: FragmentExerciseBinding? = null
@@ -39,6 +40,13 @@ class ExerciseFragment : Fragment() {
             binding.muscleTextView.text = muscleText
             binding.descriptionTextView.text = stepsText
         }
+        val exerciseGroupId  = arguments?.getInt("exerciseGroupId") ?: -1
+        val exerciseId = arguments?.getInt("exerciseId") ?: -1
+        val exerciseName = arguments?.getString("label") ?: "Exercise"
+
+        binding.addLogButton.setOnClickListener {
+            handleAddLogClick(exerciseGroupId, exerciseId, exerciseName)
+        }
 
         binding.playVideoButton.setOnClickListener {
             if (!videoUrl.isNullOrEmpty()) {
@@ -49,6 +57,32 @@ class ExerciseFragment : Fragment() {
             }
         }
         return binding.root
+    }
+    private fun handleAddLogClick(groupId: Int, exerciseId: Int, exerciseName: String) {
+        // Read logs.json to check if the exercise already exists
+        val logsJson = LogUtils.readLogs(requireContext())
+
+        val exerciseExists = logsJson.any { logEntry ->
+            logEntry.exercises.any { it.exercise_group_id == groupId && it.exercise_id == exerciseId }
+        }
+
+        if (exerciseExists) {
+            // If the exercise exists, navigate to ExerciseSetsFragment
+            val bundle = Bundle().apply {
+                putInt("exerciseGroupId", groupId)
+                putInt("exerciseId", exerciseId)
+                putString("exerciseName", exerciseName)
+            }
+            findNavController().navigate(R.id.navigation_exercise_sets, bundle)
+        } else {
+            // If the exercise does not exist, navigate to TransitionFragment
+            val bundle = Bundle().apply {
+                putInt("exerciseGroupId", groupId)
+                putInt("exerciseId", exerciseId)
+                putString("exerciseName", exerciseName)
+            }
+            findNavController().navigate(R.id.navigation_transition, bundle)
+        }
     }
 
     override fun onDestroyView() {

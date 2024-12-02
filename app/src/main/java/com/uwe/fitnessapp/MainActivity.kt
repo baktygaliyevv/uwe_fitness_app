@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.uwe.fitnessapp.databinding.ActivityMainBinding
+import com.uwe.fitnessapp.utils.LogUtils
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        try {
+            LogUtils.readLogs(this)
+        } catch (e: Exception) {
+            android.util.Log.e("MainActivity", "Error initializing logs.json: ${e.message}")
+        }
 
         val navView: BottomNavigationView = binding.navView
 
