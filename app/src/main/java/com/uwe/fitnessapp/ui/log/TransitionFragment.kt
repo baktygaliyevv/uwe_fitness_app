@@ -30,8 +30,6 @@ class TransitionFragment : Fragment() {
         val exerciseId = arguments?.getInt("exerciseId") ?: -1
         val exerciseGroupId = arguments?.getInt("exerciseGroupId") ?: -1
 
-        binding.exerciseTitle.text = exerciseName
-
         binding.addLogButton.setOnClickListener {
             val weights = binding.weightsInput.text.toString().toFloatOrNull()
             val reps = binding.repsInput.text.toString().toIntOrNull()
