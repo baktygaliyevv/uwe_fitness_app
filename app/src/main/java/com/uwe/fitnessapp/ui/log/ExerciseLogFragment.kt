@@ -12,7 +12,6 @@ import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseLogBinding
 import com.uwe.fitnessapp.models.LogEntry
-import com.uwe.fitnessapp.utils.ReadJSON
 import com.uwe.fitnessapp.utils.readJSONFromFilesDir
 
 class ExerciseLogFragment : Fragment() {
@@ -34,9 +33,10 @@ class ExerciseLogFragment : Fragment() {
         selectedLog?.let {
             val adapter = ExerciseLogAdapter(it.exercises) { exercise ->
                 val bundle = Bundle().apply {
-                    putParcelable("exerciseLog", exercise)
+                    putInt("exerciseGroupId", exercise.exercise_group_id)
+                    putInt("exerciseId", exercise.exercise_id)
                 }
-                findNavController().navigate(R.id.navigation_transition, bundle)
+                findNavController().navigate(R.id.navigation_exercise_sets, bundle)
             }
             binding.recyclerViewExercises.layoutManager = LinearLayoutManager(requireContext())
             binding.recyclerViewExercises.adapter = adapter
