@@ -30,7 +30,7 @@ class DateLogAdapter(
             val weightText = setView.findViewById<TextView>(R.id.weightText)
             val repsText = setView.findViewById<TextView>(R.id.repsText)
 
-            weightText.text = set.weight
+            weightText.text = "${set.weight} kg"
             repsText.text = set.reps.toString()
 
             holder.dataContainer.addView(setView)
