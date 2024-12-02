@@ -7,15 +7,12 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.databinding.FragmentExerciseSetsBinding
 import com.uwe.fitnessapp.models.ExerciseLog
 import com.uwe.fitnessapp.models.LogEntry
 import com.uwe.fitnessapp.models.SetLog
+import com.uwe.fitnessapp.utils.LogUtils
 import com.uwe.fitnessapp.utils.getCurrentDate
-import com.uwe.fitnessapp.utils.readJSONFromFilesDir
-import java.io.File
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -35,8 +32,7 @@ class ExerciseSetsFragment : Fragment() {
 
         (activity as? AppCompatActivity)?.supportActionBar?.title = exerciseName
 
-        val logsJson = File(requireContext().filesDir, "logs.json").readText()
-        val logs: List<LogEntry> = Gson().fromJson(logsJson, object : TypeToken<List<LogEntry>>() {}.type)
+        val logs = LogUtils.readLogs(requireContext())
 
         val filteredLogs = logs.filter { log ->
             log.exercises.any { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }
@@ -45,7 +41,7 @@ class ExerciseSetsFragment : Fragment() {
                 log.date,
                 log.exercises.filter { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }.toMutableList()
             )
-        }
+        }.sortedByDescending { LocalDate.parse(it.date, DateTimeFormatter.ofPattern("dd MMM yyyy")) }
 
         val dateLogAdapter = DateLogAdapter(filteredLogs)
         binding.recyclerViewSets.layoutManager = LinearLayoutManager(requireContext())
@@ -56,22 +52,30 @@ class ExerciseSetsFragment : Fragment() {
             val reps = binding.repsInput.text.toString().toIntOrNull()
 
             if (weights != null && reps != null) {
-                saveLogData(exerciseGroupId, exerciseId, weights, reps)
-                dateLogAdapter.notifyDataSetChanged()
+                saveLogData(logs, exerciseGroupId, exerciseId, weights, reps)
+                val updatedLogs = logs.filter { log ->
+                    log.exercises.any { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }
+                }.map { log ->
+                    LogEntry(
+                        log.date,
+                        log.exercises.filter { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }
+                            .toMutableList()
+                    )
+                }.sortedByDescending { LocalDate.parse(it.date, DateTimeFormatter.ofPattern("dd MMM yyyy")) }
+
+                dateLogAdapter.updateLogs(updatedLogs)
             } else {
                 if (weights == null) binding.weightsInput.error = "Enter valid weight"
-                if (reps == null) binding.repsInput.error = "Enter valid reps"
+                if (reps == null) binding.weightsInput.error = "Enter valid reps"
             }
         }
 
         return binding.root
     }
 
-
-    private fun saveLogData(groupId: Int, exerciseId: Int, weights: Float, reps: Int) {
-        val logsJson = File(requireContext().filesDir, "logs.json").readText()
-        val logs: MutableList<LogEntry> = Gson().fromJson(logsJson, object : TypeToken<MutableList<LogEntry>>() {}.type)
-
+    private fun saveLogData(
+        logs: MutableList<LogEntry>, groupId: Int, exerciseId: Int, weights: Float, reps: Int
+    ) {
         val currentDate = getCurrentDate()
 
         val dateLog = logs.find { it.date == currentDate } ?: LogEntry(currentDate, mutableListOf()).also {
@@ -85,25 +89,11 @@ class ExerciseSetsFragment : Fragment() {
         }
 
         exerciseLog.sets.add(SetLog(weights.toString(), reps))
-        File(requireContext().filesDir, "logs.json").writeText(Gson().toJson(logs))
-
-        val dateFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
-        val filteredLogs = logs.filter { log ->
-            log.exercises.any { it.exercise_group_id == groupId && it.exercise_id == exerciseId }
-        }.map { log ->
-            LogEntry(
-                log.date,
-                log.exercises.filter { it.exercise_group_id == groupId && it.exercise_id == exerciseId }.toMutableList()
-            )
-        }.sortedByDescending { LocalDate.parse(it.date, dateFormatter) }
-
-        (binding.recyclerViewSets.adapter as? DateLogAdapter)?.updateLogs(filteredLogs)
+        LogUtils.writeLogs(requireContext(), logs)
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
 }
-

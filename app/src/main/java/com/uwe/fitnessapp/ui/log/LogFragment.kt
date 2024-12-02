@@ -14,7 +14,7 @@ import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentLogBinding
 import com.uwe.fitnessapp.models.LogEntry
-import com.uwe.fitnessapp.utils.readJSONFromFilesDir
+import com.uwe.fitnessapp.utils.LogUtils
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -30,9 +30,8 @@ class LogFragment : Fragment() {
         _binding = FragmentLogBinding.inflate(inflater, container, false)
 
         val dateFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
-        val logsJson = readJSONFromFilesDir(requireContext(), "logs.json")
-        val logs: List<LogEntry> = Gson().fromJson(logsJson, object : TypeToken<List<LogEntry>>() {}.type)
-        val sortedLogs = logs.sortedByDescending { LocalDate.parse(it.date, dateFormatter) }
+        val logsJson = LogUtils.readLogs(requireContext())
+        val sortedLogs = logsJson.sortedByDescending { LocalDate.parse(it.date, dateFormatter) }
 
         adapter = LogAdapter(sortedLogs) { date ->
             val bundle = Bundle().apply { putString("date", date) }

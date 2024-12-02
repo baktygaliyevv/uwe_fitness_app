@@ -7,12 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.tabs.TabLayoutMediator
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseBinding
-import com.uwe.fitnessapp.models.LogEntry
-import com.uwe.fitnessapp.utils.readJSONFromFilesDir
+import com.uwe.fitnessapp.utils.LogUtils
 
 class ExerciseFragment : Fragment() {
     private var _binding: FragmentExerciseBinding? = null
@@ -63,10 +60,9 @@ class ExerciseFragment : Fragment() {
     }
     private fun handleAddLogClick(groupId: Int, exerciseId: Int, exerciseName: String) {
         // Read logs.json to check if the exercise already exists
-        val logsJson = readJSONFromFilesDir(requireContext(), "logs.json")
-        val logs: List<LogEntry> = Gson().fromJson(logsJson, object : TypeToken<List<LogEntry>>() {}.type)
+        val logsJson = LogUtils.readLogs(requireContext())
 
-        val exerciseExists = logs.any { logEntry ->
+        val exerciseExists = logsJson.any { logEntry ->
             logEntry.exercises.any { it.exercise_group_id == groupId && it.exercise_id == exerciseId }
         }
 

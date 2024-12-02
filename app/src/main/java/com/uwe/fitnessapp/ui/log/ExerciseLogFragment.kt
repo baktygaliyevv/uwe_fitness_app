@@ -7,12 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseLogBinding
-import com.uwe.fitnessapp.models.LogEntry
-import com.uwe.fitnessapp.utils.readJSONFromFilesDir
+import com.uwe.fitnessapp.utils.LogUtils
 
 class ExerciseLogFragment : Fragment() {
 
@@ -26,9 +23,8 @@ class ExerciseLogFragment : Fragment() {
 
         val selectedDate = arguments?.getString("date") ?: return binding.root
 
-        val logsJson = readJSONFromFilesDir(requireContext(), "logs.json")
-        val logs: List<LogEntry> = Gson().fromJson(logsJson, object : TypeToken<List<LogEntry>>() {}.type)
-        val selectedLog = logs.find { it.date == selectedDate }
+        val logsJson = LogUtils.readLogs(requireContext())
+        val selectedLog = logsJson.find { it.date == selectedDate }
 
         selectedLog?.let {
             val adapter = ExerciseLogAdapter(it.exercises) { exercise ->
