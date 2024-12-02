@@ -25,6 +25,7 @@ class ExerciseFragment : Fragment() {
 
         val images: Array<String>? = arguments?.getStringArray("images")
         val description = arguments?.getString("description")
+        val videoUrl = arguments?.getString("video")
 
         if (images != null) {
             val viewPager = binding.viewPager
@@ -36,7 +37,11 @@ class ExerciseFragment : Fragment() {
         }
 
         if (description != null) {
-            binding.descriptionTextView.text = description
+            val muscleText = description.substringBefore("\n\n")
+            val stepsText = description.substringAfter("\n\n")
+
+            binding.muscleTextView.text = muscleText
+            binding.descriptionTextView.text = stepsText
         }
         val exerciseGroupId  = arguments?.getInt("exerciseGroupId") ?: -1
         val exerciseId = arguments?.getInt("exerciseId") ?: -1
@@ -46,6 +51,14 @@ class ExerciseFragment : Fragment() {
             handleAddLogClick(exerciseGroupId, exerciseId, exerciseName)
         }
 
+        binding.playVideoButton.setOnClickListener {
+            if (!videoUrl.isNullOrEmpty()) {
+                val bundle = Bundle().apply {
+                    putString("video", videoUrl)
+                }
+                findNavController().navigate(R.id.navigation_video, bundle)
+            }
+        }
         return binding.root
     }
     private fun handleAddLogClick(groupId: Int, exerciseId: Int, exerciseName: String) {
