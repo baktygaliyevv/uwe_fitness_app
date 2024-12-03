@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.transition.MaterialFadeThrough
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
@@ -43,6 +44,11 @@ class ExercisesFragment : Fragment() {
                     putString("groupType", group.type)
                 })
             }
+        }
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
 
         return root

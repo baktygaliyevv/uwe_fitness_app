@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.tabs.TabLayoutMediator
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseBinding
 import com.uwe.fitnessapp.utils.LogUtils
@@ -23,6 +24,11 @@ class ExerciseFragment : Fragment() {
         val images: Array<String>? = arguments?.getStringArray("images")
         val description = arguments?.getString("description")
         val videoUrl = arguments?.getString("video")
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
+        }
 
         if (images != null) {
             val viewPager = binding.viewPager
@@ -57,6 +63,7 @@ class ExerciseFragment : Fragment() {
             }
         }
         return binding.root
+
     }
     private fun handleAddLogClick(groupId: Int, exerciseId: Int, exerciseName: String) {
         // Read logs.json to check if the exercise already exists

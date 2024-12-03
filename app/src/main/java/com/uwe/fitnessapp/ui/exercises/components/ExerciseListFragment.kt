@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseListBinding
 import com.uwe.fitnessapp.models.ExercisesGroup
@@ -36,6 +37,11 @@ class ExerciseListFragment : Fragment() {
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
 
         val selectedGroup = exercisesData.find { it?.type == groupType }
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
+        }
 
         selectedGroup?.exercises?.forEach { exercise ->
             val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), exercise.images[0])

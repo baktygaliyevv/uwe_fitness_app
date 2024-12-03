@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.github.anastr.speedviewlib.SpeedView
 import com.github.anastr.speedviewlib.components.Section
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.databinding.FragmentBmiBinding
 import kotlin.math.pow
 
@@ -43,6 +44,10 @@ class BMIFragment : Fragment() {
 
         binding.calculateButton.setOnClickListener {
             calculateBMI()
+        }
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
         return binding.root
     }

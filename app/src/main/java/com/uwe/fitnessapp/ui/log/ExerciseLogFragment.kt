@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExerciseLogBinding
 import com.uwe.fitnessapp.utils.LogUtils
@@ -36,6 +37,10 @@ class ExerciseLogFragment : Fragment() {
             }
             binding.recyclerViewExercises.layoutManager = LinearLayoutManager(requireContext())
             binding.recyclerViewExercises.adapter = adapter
+        }
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
 
         return binding.root

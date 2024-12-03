@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.uwe.fitnessapp.databinding.FragmentHeartRateBinding
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.transition.MaterialFadeThrough
 
 class HeartRateFragment : Fragment() {
 
@@ -21,6 +22,10 @@ class HeartRateFragment : Fragment() {
 
         binding.calculateButton.setOnClickListener {
             calculateHeartRate()
+        }
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
 
         return binding.root

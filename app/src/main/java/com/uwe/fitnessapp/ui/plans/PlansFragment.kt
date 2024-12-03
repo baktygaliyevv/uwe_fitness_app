@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.transition.MaterialFadeThrough
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
@@ -36,6 +37,11 @@ class PlansFragment : Fragment() {
 
         setupRecyclerView()
 
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
+        }
+
         return root
     }
 
@@ -51,6 +57,8 @@ class PlansFragment : Fragment() {
 
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = PlansAdapter(plansData)
+        recyclerView.itemAnimator = null
+
     }
 
     inner class PlansAdapter(private val plans: List<Map<String, Any>>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

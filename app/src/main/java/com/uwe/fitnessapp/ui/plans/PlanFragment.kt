@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.models.Plan
 import com.google.gson.Gson
@@ -41,6 +42,11 @@ class PlanFragment : Fragment() {
 
         val days = plan.days
         daysRecyclerView.adapter = DaysAdapter(days)
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
+        }
 
         return view
     }
