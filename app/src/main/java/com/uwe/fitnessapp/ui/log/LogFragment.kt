@@ -45,6 +45,7 @@ class LogFragment : Fragment() {
         }
         binding.recyclerViewLogs.layoutManager = LinearLayoutManager(requireContext())
         binding.recyclerViewLogs.adapter = adapter
+        binding.recyclerViewLogs.itemAnimator = null
 
         val divider = MaterialDividerItemDecoration(requireContext(), RecyclerView.VERTICAL).apply {
             dividerThickness = resources.getDimensionPixelSize(R.dimen.divider_thickness)

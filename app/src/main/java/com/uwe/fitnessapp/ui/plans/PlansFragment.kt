@@ -57,6 +57,8 @@ class PlansFragment : Fragment() {
 
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = PlansAdapter(plansData)
+        recyclerView.itemAnimator = null
+
     }
 
     inner class PlansAdapter(private val plans: List<Map<String, Any>>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
