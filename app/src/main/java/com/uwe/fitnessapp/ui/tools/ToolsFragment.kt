@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentToolsBinding
 
@@ -21,6 +22,11 @@ class ToolsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentToolsBinding.inflate(inflater, container, false)
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
+        }
 
         addCard(
             title = "BMI Calculator",
