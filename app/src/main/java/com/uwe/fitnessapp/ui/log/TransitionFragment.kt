@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.databinding.FragmentTransitionBinding
 import com.uwe.fitnessapp.models.ExerciseLog
 import com.uwe.fitnessapp.models.LogEntry
@@ -41,6 +42,11 @@ class TransitionFragment : Fragment() {
                 if (weights == null) binding.weightsInput.error = "Please enter a valid weight"
                 if (reps == null) binding.repsInput.error = "Please enter a valid number of reps"
             }
+        }
+
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
 
         return binding.root

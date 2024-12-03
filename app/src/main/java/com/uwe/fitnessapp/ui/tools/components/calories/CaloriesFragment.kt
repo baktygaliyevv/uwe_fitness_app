@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.uwe.fitnessapp.databinding.FragmentCaloriesBinding
 import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.models.CalorieGoal
 import kotlin.math.roundToInt
 
@@ -44,6 +45,10 @@ class CaloriesFragment : Fragment() {
 
         binding.calculateButton.setOnClickListener {
             calculateCalories(activityFactors)
+        }
+        enterTransition = MaterialFadeThrough().apply {
+        }
+        exitTransition = MaterialFadeThrough().apply {
         }
 
         return binding.root
