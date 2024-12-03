@@ -9,7 +9,7 @@ import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.models.LogEntry
 
 class DateLogAdapter(
-    private val logs: List<LogEntry>
+    private val logs: MutableList<LogEntry>
 ) : RecyclerView.Adapter<DateLogAdapter.DateLogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DateLogViewHolder {
@@ -40,7 +40,7 @@ class DateLogAdapter(
     override fun getItemCount(): Int = logs.size
 
     fun updateLogs(newLogs: List<LogEntry>) {
-        (logs as MutableList).clear()
+        logs.clear()
         logs.addAll(newLogs)
         notifyDataSetChanged()
     }

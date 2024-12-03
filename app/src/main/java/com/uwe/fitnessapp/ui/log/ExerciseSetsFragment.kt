@@ -32,7 +32,7 @@ class ExerciseSetsFragment : Fragment() {
 
         (activity as? AppCompatActivity)?.supportActionBar?.title = exerciseName
 
-        val logs = LogUtils.readLogs(requireContext())
+        val logs = LogUtils.readLogs(requireContext()).toMutableList()
 
         val filteredLogs = logs.filter { log ->
             log.exercises.any { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }
@@ -41,7 +41,7 @@ class ExerciseSetsFragment : Fragment() {
                 log.date,
                 log.exercises.filter { it.exercise_group_id == exerciseGroupId && it.exercise_id == exerciseId }.toMutableList()
             )
-        }.sortedByDescending { LocalDate.parse(it.date, DateTimeFormatter.ofPattern("dd MMM yyyy")) }
+        }.sortedByDescending { LocalDate.parse(it.date, DateTimeFormatter.ofPattern("dd MMM yyyy")) }.toMutableList()
 
         val dateLogAdapter = DateLogAdapter(filteredLogs)
         binding.recyclerViewSets.layoutManager = LinearLayoutManager(requireContext())
