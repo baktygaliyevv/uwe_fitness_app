@@ -1,15 +1,19 @@
 package com.uwe.fitnessapp.ui.log
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.button.MaterialButton
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.models.LogEntry
 
 class DateLogAdapter(
-    private val logs: MutableList<LogEntry>
+    private val logs: MutableList<LogEntry>,
+    private val exerciseName: String
 ) : RecyclerView.Adapter<DateLogAdapter.DateLogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DateLogViewHolder {
@@ -35,6 +39,23 @@ class DateLogAdapter(
 
             holder.dataContainer.addView(setView)
         }
+
+        holder.shareButton.setOnClickListener {
+            val context = holder.itemView.context
+            val shareText = generateShareText(log) // Function to generate text for sharing
+
+            // Create share intent
+            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                putExtra(Intent.EXTRA_TEXT, shareText)
+            }
+
+            try {
+                context.startActivity(Intent.createChooser(shareIntent, "Share Log"))
+            } catch (e: Exception) {
+                Toast.makeText(context, "No app available to share", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     override fun getItemCount(): Int = logs.size
@@ -45,8 +66,19 @@ class DateLogAdapter(
         notifyDataSetChanged()
     }
 
+    private fun generateShareText(log: LogEntry): String {
+        val exercises = log.exercises.joinToString(separator = "\n") { exercise ->
+            val sets = exercise.sets.joinToString(separator = "; ") { set ->
+                "${set.reps} reps @ ${set.weight} kg"
+            }
+            "$exerciseName:\n$sets"
+        }
+        return "Workout log for ${log.date}:\n\n$exercises"
+    }
+
     class DateLogViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val dateText: TextView = itemView.findViewById(R.id.dateText)
         val dataContainer: ViewGroup = itemView.findViewById(R.id.dataContainer)
+        val shareButton: MaterialButton = itemView.findViewById(R.id.shareButton)
     }
 }

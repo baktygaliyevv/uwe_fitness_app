@@ -43,7 +43,7 @@ class ExerciseSetsFragment : Fragment() {
             )
         }.sortedByDescending { LocalDate.parse(it.date, DateTimeFormatter.ofPattern("dd MMM yyyy")) }.toMutableList()
 
-        val dateLogAdapter = DateLogAdapter(filteredLogs)
+        val dateLogAdapter = DateLogAdapter(filteredLogs, exerciseName)
         binding.recyclerViewSets.layoutManager = LinearLayoutManager(requireContext())
         binding.recyclerViewSets.adapter = dateLogAdapter
 
