@@ -97,6 +97,8 @@ class PlanFragment : Fragment() {
                         putString("label", selectedExercise.name)
                         putStringArray("images", selectedExercise.images.toTypedArray())
                         putString("description", selectedExercise.description)
+                        putInt("exerciseGroupId", exerciseGroupId)
+                        putInt("exerciseId", exerciseId)
                     }
                     findNavController().navigate(R.id.navigation_exercises_exercise, bundle)
                 }
