@@ -20,12 +20,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        try {
-            LogUtils.readLogs(this)
-        } catch (e: Exception) {
-            android.util.Log.e("MainActivity", "Error initializing logs.json: ${e.message}")
-        }
-
         val navView: BottomNavigationView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
@@ -38,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        LogUtils.printLogsJson(this)
 
     }
     override fun onSupportNavigateUp(): Boolean {
