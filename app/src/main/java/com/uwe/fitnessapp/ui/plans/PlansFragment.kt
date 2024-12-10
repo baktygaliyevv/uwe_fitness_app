@@ -15,9 +15,9 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentPlansBinding
-import com.uwe.fitnessapp.utils.ReadJSON
+import com.uwe.fitnessapp.utils.readJSON
 import com.uwe.fitnessapp.models.Plan
-import com.uwe.fitnessapp.utils.ReadImagesFromAssets
+import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class PlansFragment : Fragment() {
 
@@ -32,7 +32,7 @@ class PlansFragment : Fragment() {
         _binding = FragmentPlansBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val plansJson = ReadJSON(requireContext(), "plans.json")
+        val plansJson = readJSON(requireContext(), "plans.json")
         plansData = Gson().fromJson(plansJson, object : TypeToken<ArrayList<Map<String, Any>>>() {}.type)
 
         setupRecyclerView()
@@ -97,7 +97,7 @@ class PlansFragment : Fragment() {
                 title.text = plan["name"] as String
 
                 val imagePath = plan["image"] as String
-                val drawable = ReadImagesFromAssets(itemView.context, imagePath)
+                val drawable = readImagesFromAssets(itemView.context, imagePath)
 
                 if (drawable != null) {
                     image.setImageDrawable(drawable)
@@ -137,7 +137,7 @@ class PlansFragment : Fragment() {
                 title.text = plan["name"] as String
 
                 val imagePath = plan["image"] as String
-                val drawable = ReadImagesFromAssets(itemView.context, imagePath)
+                val drawable = readImagesFromAssets(itemView.context, imagePath)
 
                 if (drawable != null) {
                     image.setImageDrawable(drawable)

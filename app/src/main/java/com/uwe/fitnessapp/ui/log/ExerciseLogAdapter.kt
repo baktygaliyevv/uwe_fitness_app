@@ -14,7 +14,8 @@ import androidx.navigation.findNavController
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.models.ExercisesGroup
-import com.uwe.fitnessapp.utils.ReadJSON
+import com.uwe.fitnessapp.utils.readJSON
+import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class ExerciseLogAdapter(
     private val exercises: List<ExerciseLog>,
@@ -35,7 +36,7 @@ class ExerciseLogAdapter(
 
         val imagePath = loadedExercise?.images?.getOrNull(0)
         if (imagePath != null) {
-            val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(holder.itemView.context, imagePath)
+            val drawable = readImagesFromAssets(holder.itemView.context, imagePath)
             holder.exerciseImage.setImageDrawable(drawable)
         }
 
@@ -57,7 +58,7 @@ class ExerciseLogAdapter(
     }
 
     private fun findExerciseById(context: Context, groupId: Int, exerciseId: Int): ExercisesGroup.Exercise? {
-        val exercisesJson = ReadJSON(context, "exercises.json")
+        val exercisesJson = readJSON(context, "exercises.json")
         val exerciseGroups: List<ExercisesGroup> = Gson().fromJson(
             exercisesJson, object : TypeToken<List<ExercisesGroup>>() {}.type
         )

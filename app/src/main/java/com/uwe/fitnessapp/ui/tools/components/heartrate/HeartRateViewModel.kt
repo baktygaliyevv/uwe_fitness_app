@@ -7,7 +7,6 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.uwe.fitnessapp.R
-import com.uwe.fitnessapp.databinding.ItemHeartRateTableBinding
 
 class HeartRateViewModel(private val zones: List<HeartRateFragment.HeartRateZone>) :
     RecyclerView.Adapter<HeartRateViewModel.HeartRateViewHolder>() {

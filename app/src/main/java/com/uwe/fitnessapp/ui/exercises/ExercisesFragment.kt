@@ -15,8 +15,9 @@ import com.google.gson.reflect.TypeToken
 import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.databinding.FragmentExercisesBinding
 import com.uwe.fitnessapp.models.ExercisesGroup
-import com.uwe.fitnessapp.utils.ReadJSON
-import com.uwe.fitnessapp.utils.GetExercisesCount
+import com.uwe.fitnessapp.utils.readJSON
+import com.uwe.fitnessapp.utils.getExercisesCount
+import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class ExercisesFragment : Fragment() {
 
@@ -30,15 +31,15 @@ class ExercisesFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val exercisesJson = ReadJSON(requireContext(), "exercises.json")
+        val exercisesJson = readJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
 
         _binding = FragmentExercisesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         for (group in exercisesData) {
-            val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(requireContext(), group!!.image)
-            val exerciseCount = GetExercisesCount(exercisesData, group.type)
+            val drawable = readImagesFromAssets(requireContext(), group!!.image)
+            val exerciseCount = getExercisesCount(exercisesData, group.type)
             addCard(group.type, drawable, exerciseCount) {
                 findNavController().navigate(R.id.navigation_exercises_list, Bundle().apply {
                     putString("groupType", group.type)
