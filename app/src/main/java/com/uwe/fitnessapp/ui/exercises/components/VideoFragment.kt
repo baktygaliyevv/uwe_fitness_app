@@ -1,49 +1,77 @@
 package com.uwe.fitnessapp.ui.exercises.components
 
-import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.media3.common.MediaItem
+import androidx.media3.common.PlaybackException
+import androidx.media3.common.Player
+import androidx.media3.common.VideoSize
+import androidx.media3.exoplayer.ExoPlayer
+import androidx.navigation.fragment.findNavController
 import com.uwe.fitnessapp.databinding.FragmentVideoBinding
 
 class VideoFragment : Fragment() {
-
     private var _binding: FragmentVideoBinding? = null
     private val binding get() = _binding!!
     private var videoUrl: String? = null
+    private var exoPlayer: ExoPlayer? = null
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         _binding = FragmentVideoBinding.inflate(inflater, container, false)
-
-        videoUrl = arguments?.getString("video")
-        if (!videoUrl.isNullOrEmpty()) {
-            initializeVideoView(videoUrl!!)
-        }
-
         return binding.root
     }
 
-    private fun initializeVideoView(url: String) {
-        val uri = Uri.parse(url)
-        binding.videoView.setVideoURI(uri)
-        binding.videoView.setOnPreparedListener { mp: MediaPlayer ->
-            mp.isLooping = true
-            binding.videoView.start()
-        }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-        binding.videoView.setOnErrorListener { _, _, _ ->
-            true
-        }
-    }
+        videoUrl = arguments?.getString("video")
+        exoPlayer = ExoPlayer.Builder(requireContext()).build()
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        binding.videoView.stopPlayback()
-        _binding = null
+        val playerView = binding.playerView
+        playerView.player = exoPlayer
+
+        exoPlayer!!.addListener(object : Player.Listener {
+            override fun onVideoSizeChanged(videoSize: VideoSize) {
+                super.onVideoSizeChanged(videoSize)
+                val width = videoSize.width
+                val height = videoSize.height
+                val aspectRatio = width.toFloat() / height.toFloat()
+
+                if (aspectRatio > 1) {
+                    playerView.scaleX = 1.5f
+                    playerView.scaleY = 1.5f
+                } else {
+                    playerView.scaleX = 1.1f
+                    playerView.scaleY = 1.1f
+                }
+            }
+            override fun onPlayerError(error: PlaybackException) {
+                super.onPlayerError(error)
+                Toast.makeText(requireContext(), "Error loading video: ${error.message}", Toast.LENGTH_LONG).show()
+                findNavController().popBackStack()
+            }
+        })
+
+        if (!videoUrl.isNullOrEmpty()) {
+            val uri = Uri.parse(videoUrl)
+            val mediaItem = MediaItem.Builder()
+                .setUri(uri)
+                .build()
+
+            exoPlayer?.apply {
+                setMediaItem(mediaItem)
+                prepare()
+                playWhenReady = true
+                repeatMode = Player.REPEAT_MODE_ONE
+            }
+        }
     }
 }

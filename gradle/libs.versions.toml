@@ -1,5 +1,6 @@
 [versions]
 agp = "8.7.0"
+exoplayer = "2.19.1"
 githubSpeedviewlib = "1.6.1"
 githubSpeedviewlibVersion = "1.6.1"
 glide = "4.12.0"
@@ -16,6 +17,7 @@ constraintlayout = "2.1.4"
 lifecycleLivedataKtx = "2.6.1"
 lifecycleViewmodelKtx = "2.6.1"
 materialVersion = "1.3.0"
+media3Exoplayer = "1.5.0"
 navigationFragmentKtx = "2.8.2"
 navigationUiKtx = "2.8.2"
 speedometerAndroid = "1.0.0-ALPHA02"
@@ -24,6 +26,9 @@ speedviewlibVersion = "1.5.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
+androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3Exoplayer" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
