@@ -54,6 +54,7 @@ class ExerciseListFragment : Fragment() {
                     putStringArray("images", exercise.images.toTypedArray())
                     putString("description", exercise.description)
                     putString("video", exercise.video)
+                    putString("source", "exercises")
                 })
             }
         }

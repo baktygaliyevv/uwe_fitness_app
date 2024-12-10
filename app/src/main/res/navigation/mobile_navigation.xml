@@ -35,6 +35,9 @@
         <argument
             android:name="images"
             app:argType="string[]" />
+        <argument
+            android:name="source"
+            app:argType="string" />
     </fragment>
 
     <fragment
