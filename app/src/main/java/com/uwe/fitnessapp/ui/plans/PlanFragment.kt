@@ -15,8 +15,9 @@ import com.uwe.fitnessapp.R
 import com.uwe.fitnessapp.models.Plan
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.uwe.fitnessapp.utils.ReadJSON
+import com.uwe.fitnessapp.utils.readJSON
 import com.uwe.fitnessapp.models.ExercisesGroup
+import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class PlanFragment : Fragment() {
 
@@ -28,7 +29,7 @@ class PlanFragment : Fragment() {
         arguments?.let {
             plan = it.getParcelable("plan") ?: throw IllegalStateException("Plan must be provided")
         }
-        val exercisesJson = ReadJSON(requireContext(), "exercises.json")
+        val exercisesJson = readJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
     }
 
@@ -105,6 +106,7 @@ class PlanFragment : Fragment() {
                         putString("description", selectedExercise.description)
                         putInt("exerciseGroupId", exerciseGroupId)
                         putInt("exerciseId", exerciseId)
+                        putString("video", selectedExercise.video)
                     }
                     findNavController().navigate(R.id.navigation_exercises_exercise, bundle)
                 }
@@ -120,7 +122,7 @@ class PlanFragment : Fragment() {
             fun bind(exercise: ExercisesGroup.Exercise?) {
                 if (exercise != null) {
                     exerciseTitle.text = exercise.name
-                    val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(itemView.context, exercise.images[0])
+                    val drawable = readImagesFromAssets(itemView.context, exercise.images[0])
                     exerciseImage.setImageDrawable(drawable)
                 }
             }

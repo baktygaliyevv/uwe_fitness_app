@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.uwe.fitnessapp.R
+import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class ExerciseImageAdapter(private val images: List<String>) :
     RecyclerView.Adapter<ExerciseImageAdapter.ViewHolder>() {
@@ -22,7 +23,7 @@ class ExerciseImageAdapter(private val images: List<String>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val context = holder.itemView.context
-        val drawable = com.uwe.fitnessapp.utils.ReadImagesFromAssets(context, images[position])
+        val drawable = readImagesFromAssets(context, images[position])
         holder.imageView.setImageDrawable(drawable)
     }
 
