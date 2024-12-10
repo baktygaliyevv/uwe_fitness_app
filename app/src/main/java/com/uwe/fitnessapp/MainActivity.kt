@@ -33,6 +33,47 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+        navController.addOnDestinationChangedListener { _, destination, arguments ->
+            when (destination.id) {
+                // top level fragments
+                R.id.navigation_exercises,
+                R.id.navigation_plans,
+                R.id.navigation_log,
+                R.id.navigation_tools -> {
+                    navView.menu.findItem(destination.id).isChecked = true
+                }
+                // nested fragments for tools
+                R.id.navigation_bmi,
+                R.id.navigation_calories,
+                R.id.navigation_heart_rate -> {
+                    navView.menu.findItem(R.id.navigation_tools).isChecked = true
+                }
+                // nested fragments for logs
+                R.id.navigation_exercise_log,
+                R.id.navigation_exercise_sets -> {
+                    navView.menu.findItem(R.id.navigation_log).isChecked = true
+                }
+                // nested fragments for plans
+                R.id.navigation_plan_detail,
+                R.id.navigation_transition -> {
+                    navView.menu.findItem(R.id.navigation_plans).isChecked = true
+                }
+                // nested fragments for exercises
+                R.id.navigation_exercises_list,
+                R.id.navigation_transition -> {
+                    navView.menu.findItem(R.id.navigation_exercises).isChecked = true
+                }
+                // exercises_exercise
+                R.id.navigation_exercises_exercise -> {
+                    val source = arguments?.getString("source")
+                    when (source) {
+                        "exercises" -> navView.menu.findItem(R.id.navigation_exercises).isChecked = true
+                        "plans" -> navView.menu.findItem(R.id.navigation_plans).isChecked = true
+                    }
+                }
+            }
+        }
+
         LogUtils.printLogsJson(this)
 
     }

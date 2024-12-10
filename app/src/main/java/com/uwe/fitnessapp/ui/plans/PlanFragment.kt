@@ -107,6 +107,7 @@ class PlanFragment : Fragment() {
                         putInt("exerciseGroupId", exerciseGroupId)
                         putInt("exerciseId", exerciseId)
                         putString("video", selectedExercise.video)
+                        putString("source", "plans")
                     }
                     findNavController().navigate(R.id.navigation_exercises_exercise, bundle)
                 }
