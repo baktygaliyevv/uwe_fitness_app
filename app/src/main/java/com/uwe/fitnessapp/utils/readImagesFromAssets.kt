@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable
 import android.util.Log
 import java.io.InputStream
 
-fun ReadImagesFromAssets(context: Context, imagePath: String): Drawable? {
+fun readImagesFromAssets(context: Context, imagePath: String): Drawable? {
     val identifier = "[ReadImagesFromAssets]"
     return try {
         val inputStream: InputStream = context.assets.open(imagePath)

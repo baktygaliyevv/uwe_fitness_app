@@ -5,7 +5,7 @@ import android.util.Log
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun ReadJSON(context: Context, path: String): String {
+fun readJSON(context: Context, path: String): String {
     val identifier = "[ReadJSON]"
     try {
         val file = context.assets.open(path)
