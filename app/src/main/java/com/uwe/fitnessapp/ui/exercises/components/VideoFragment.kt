@@ -5,11 +5,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.media3.common.MediaItem
+import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.common.VideoSize
 import androidx.media3.exoplayer.ExoPlayer
+import androidx.navigation.fragment.findNavController
 import com.uwe.fitnessapp.databinding.FragmentVideoBinding
 
 class VideoFragment : Fragment() {
@@ -49,6 +52,11 @@ class VideoFragment : Fragment() {
                     playerView.scaleX = 1.1f
                     playerView.scaleY = 1.1f
                 }
+            }
+            override fun onPlayerError(error: PlaybackException) {
+                super.onPlayerError(error)
+                Toast.makeText(requireContext(), "Error loading video: ${error.message}", Toast.LENGTH_LONG).show()
+                findNavController().popBackStack()
             }
         })
 
