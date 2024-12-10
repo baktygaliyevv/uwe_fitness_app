@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.uwe.fitnessapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.uwe.fitnessapp"
@@ -54,4 +54,6 @@ dependencies {
     implementation(libs.gson)
     implementation (libs.speedviewlib.v161)
     implementation(libs.glide)
+    implementation (libs.androidx.media3.exoplayer)
+    implementation (libs.androidx.media3.ui)
 }
