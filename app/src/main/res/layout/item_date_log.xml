@@ -30,7 +30,7 @@
                 android:id="@+id/shareButton"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:backgroundTint="@color/dark_blue"
+                android:backgroundTint="?attr/colorPrimary"
                 app:icon="@drawable/ic_share"
                 app:iconPadding="0dp"
                 android:paddingTop="0dp"
