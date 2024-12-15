@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.material.transition.MaterialFadeThrough
 import com.uwe.fitnessapp.databinding.FragmentExerciseSetsBinding
 import com.uwe.fitnessapp.models.ExerciseLog
 import com.uwe.fitnessapp.models.LogEntry

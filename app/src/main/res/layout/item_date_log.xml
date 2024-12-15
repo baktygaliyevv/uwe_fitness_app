@@ -26,6 +26,7 @@
                 android:layout_marginBottom="16dp"
                 android:text="Date"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/shareButton"
                 android:layout_width="48dp"
