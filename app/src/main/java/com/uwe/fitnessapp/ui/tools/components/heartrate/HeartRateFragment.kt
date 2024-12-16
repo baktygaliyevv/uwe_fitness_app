@@ -11,6 +11,7 @@ import com.google.android.material.transition.MaterialFadeThrough
 
 class HeartRateFragment : Fragment() {
 
+    // binding for accessing views in the layout
     private var _binding: FragmentHeartRateBinding? = null
     private val binding get() = _binding!!
 
@@ -18,33 +19,40 @@ class HeartRateFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        // inflate the layout and set up binding
         _binding = FragmentHeartRateBinding.inflate(inflater, container, false)
 
+        // set a click listener on the calculate button
         binding.calculateButton.setOnClickListener {
-            calculateHeartRate()
+            calculateHeartRate() // perform heart rate calculation
         }
-        enterTransition = MaterialFadeThrough().apply {
-        }
-        exitTransition = MaterialFadeThrough().apply {
-        }
+
+        // fade transition animations
+        enterTransition = MaterialFadeThrough()
+        exitTransition = MaterialFadeThrough()
 
         return binding.root
     }
 
+    // data class to represent a heart rate zone
     data class HeartRateZone(
-        val targetZone: String,
-        val intensity: String,
-        val thrRange: String
+        val targetZone: String,   // name of the heart rate zone
+        val intensity: String,    // intensity percentage
+        val thrRange: String      // target heart rate range
     )
 
+    // function to calculate heart rate zones based on the user's age
     private fun calculateHeartRate() {
-        val ageText = binding.ageInput.text.toString()
+        val ageText = binding.ageInput.text.toString() // retrieve user input for age
+
+        // validate if age input is not empty
         if (ageText.isNotEmpty()) {
             try {
-                val age = ageText.toInt()
-                if (age in 20..99) {
-                    val maxHeartRate = 220 - age
+                val age = ageText.toInt() // convert input to integer
+                if (age in 20..99) { // check if age is within the valid range
+                    val maxHeartRate = 220 - age // calculate the maximum heart rate
 
+                    // define heart rate zones with calculated target ranges
                     val zones = listOf(
                         HeartRateZone(
                             "Maximum\nVO2 Max Zone",
@@ -73,21 +81,24 @@ class HeartRateFragment : Fragment() {
                         )
                     )
 
+                    // set up RecyclerView to display the calculated zones
                     binding.heartRateTable.layoutManager = LinearLayoutManager(requireContext())
                     binding.heartRateTable.adapter = HeartRateViewModel(zones)
 
+                    // clear any previous error messages
                     binding.ageInputLayout.error = null
-                }
-                else {
+                } else {
+                    // show error if age is out of the valid range
                     binding.ageInputLayout.error = "Age should be between 20 and 99"
                 }
-            }
-            catch (e: NumberFormatException) {
+            } catch (e: NumberFormatException) {
+                // handle invalid input that cannot be converted to an integer
                 binding.ageInputLayout.error = "Enter a valid number"
             }
         }
     }
 
+    // clear the binding reference to avoid memory leaks
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

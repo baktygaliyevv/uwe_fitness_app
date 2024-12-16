@@ -18,11 +18,11 @@ import com.uwe.fitnessapp.utils.readJSON
 import com.uwe.fitnessapp.utils.readImagesFromAssets
 
 class ExerciseLogAdapter(
-    private val exercises: List<ExerciseLog>,
-    private val onExerciseClick: (ExerciseLog) -> Unit
+    private val exercises: List<ExerciseLog>
 ) : RecyclerView.Adapter<ExerciseLogAdapter.ExerciseLogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExerciseLogViewHolder {
+        // inflating a simple exercise item layout
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_exercise_list, parent, false)
         return ExerciseLogViewHolder(view)
@@ -32,14 +32,15 @@ class ExerciseLogAdapter(
         val exercise = exercises[position]
         val loadedExercise = findExerciseById(holder.itemView.context, exercise.exercise_group_id, exercise.exercise_id)
 
+        // setting exercise name and image from local assets if available
         holder.exerciseTitle.text = loadedExercise?.name ?: "Unknown Exercise"
-
         val imagePath = loadedExercise?.images?.getOrNull(0)
         if (imagePath != null) {
             val drawable = readImagesFromAssets(holder.itemView.context, imagePath)
             holder.exerciseImage.setImageDrawable(drawable)
         }
 
+        // clicking leads to a detailed log for that specific exercise
         holder.itemView.setOnClickListener {
             val bundle = Bundle().apply {
                 putInt("exerciseGroupId", exercise.exercise_group_id)
@@ -58,6 +59,7 @@ class ExerciseLogAdapter(
     }
 
     private fun findExerciseById(context: Context, groupId: Int, exerciseId: Int): ExercisesGroup.Exercise? {
+        // reading exercises from json and filtering by group and id
         val exercisesJson = readJSON(context, "exercises.json")
         val exerciseGroups: List<ExercisesGroup> = Gson().fromJson(
             exercisesJson, object : TypeToken<List<ExercisesGroup>>() {}.type
@@ -66,6 +68,3 @@ class ExerciseLogAdapter(
         return group?.exercises?.find { it.id == exerciseId }
     }
 }
-
-
-

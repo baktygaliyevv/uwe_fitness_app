@@ -21,24 +21,27 @@ class ExerciseFragment : Fragment() {
     ): View {
         _binding = FragmentExerciseBinding.inflate(inflater, container, false)
 
+        // getting arguments passed to this fragment (images, description, video link)
         val images: Array<String>? = arguments?.getStringArray("images")
         val description = arguments?.getString("description")
         val videoUrl = arguments?.getString("video")
 
-        enterTransition = MaterialFadeThrough().apply {
-        }
-        exitTransition = MaterialFadeThrough().apply {
-        }
+        // fade transition animations
+        enterTransition = MaterialFadeThrough()
+        exitTransition = MaterialFadeThrough()
 
+        // if we have images, set up the viewpager and tab indicators
         if (images != null) {
             val viewPager = binding.viewPager
             val adapter = ExerciseImageAdapter(images.toList())
             viewPager.adapter = adapter
 
             val tabLayout = binding.tabLayout
+            // attaching tabs to the viewpager, no text needed here since it's just an indicator
             TabLayoutMediator(tabLayout, viewPager) { _, _ -> }.attach()
         }
 
+        // if we have a description, split it into muscle info and steps
         if (description != null) {
             val muscleText = description.substringBefore("\n\n")
             val stepsText = description.substringAfter("\n\n")
@@ -46,14 +49,18 @@ class ExerciseFragment : Fragment() {
             binding.muscleTextView.text = muscleText
             binding.descriptionTextView.text = stepsText
         }
-        val exerciseGroupId  = arguments?.getInt("exerciseGroupId") ?: -1
+
+        // gathering exercise info for logging
+        val exerciseGroupId = arguments?.getInt("exerciseGroupId") ?: -1
         val exerciseId = arguments?.getInt("exerciseId") ?: -1
         val exerciseName = arguments?.getString("label") ?: "Exercise"
 
+        // when add log button is clicked, we'll decide which fragment to navigate to
         binding.addLogButton.setOnClickListener {
             handleAddLogClick(exerciseGroupId, exerciseId, exerciseName)
         }
 
+        // if a video url is provided, tapping this button navigates to the video fragment
         binding.playVideoButton.setOnClickListener {
             if (!videoUrl.isNullOrEmpty()) {
                 val bundle = Bundle().apply {
@@ -62,32 +69,29 @@ class ExerciseFragment : Fragment() {
                 findNavController().navigate(R.id.navigation_video, bundle)
             }
         }
-        return binding.root
 
+        return binding.root
     }
+
     private fun handleAddLogClick(groupId: Int, exerciseId: Int, exerciseName: String) {
-        // Read logs.json to check if the exercise already exists
+        // reading the logs file to see if this exercise already exists in the logs
         val logsJson = LogUtils.readLogs(requireContext())
 
         val exerciseExists = logsJson.any { logEntry ->
             logEntry.exercises.any { it.exercise_group_id == groupId && it.exercise_id == exerciseId }
         }
 
+        // if it exists, navigate to the sets fragment to show past logs and add new sets
+        // if not, we navigate to transition fragment to initially create and log this exercise
+        val bundle = Bundle().apply {
+            putInt("exerciseGroupId", groupId)
+            putInt("exerciseId", exerciseId)
+            putString("exerciseName", exerciseName)
+        }
+
         if (exerciseExists) {
-            // If the exercise exists, navigate to ExerciseSetsFragment
-            val bundle = Bundle().apply {
-                putInt("exerciseGroupId", groupId)
-                putInt("exerciseId", exerciseId)
-                putString("exerciseName", exerciseName)
-            }
             findNavController().navigate(R.id.navigation_exercise_sets, bundle)
         } else {
-            // If the exercise does not exist, navigate to TransitionFragment
-            val bundle = Bundle().apply {
-                putInt("exerciseGroupId", groupId)
-                putInt("exerciseId", exerciseId)
-                putString("exerciseName", exerciseName)
-            }
             findNavController().navigate(R.id.navigation_transition, bundle)
         }
     }

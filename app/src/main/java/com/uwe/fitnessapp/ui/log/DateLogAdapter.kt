@@ -17,6 +17,7 @@ class DateLogAdapter(
 ) : RecyclerView.Adapter<DateLogAdapter.DateLogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DateLogViewHolder {
+        // inflating the layout for each log date entry
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_date_log, parent, false)
         return DateLogViewHolder(view)
     }
@@ -25,8 +26,10 @@ class DateLogAdapter(
         val log = logs[position]
         holder.dateText.text = log.date
 
+        // clearing any previous sets before adding new ones
         holder.dataContainer.removeAllViews()
 
+        // adding each set from the exercises under this log entry
         log.exercises.flatMap { it.sets }.forEach { set ->
             val setView = LayoutInflater.from(holder.itemView.context)
                 .inflate(R.layout.item_set_log, holder.dataContainer, false)
@@ -40,11 +43,11 @@ class DateLogAdapter(
             holder.dataContainer.addView(setView)
         }
 
+        // allowing user to share their log via an intent
         holder.shareButton.setOnClickListener {
             val context = holder.itemView.context
-            val shareText = generateShareText(log) // Function to generate text for sharing
+            val shareText = generateShareText(log) // function to generate text for sharing
 
-            // Create share intent
             val shareIntent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
                 putExtra(Intent.EXTRA_TEXT, shareText)
@@ -66,6 +69,7 @@ class DateLogAdapter(
         notifyDataSetChanged()
     }
 
+    // formatting the log info for sharing purposes
     private fun generateShareText(log: LogEntry): String {
         val exercises = log.exercises.joinToString(separator = "\n") { exercise ->
             val sets = exercise.sets.joinToString(separator = "; ") { set ->

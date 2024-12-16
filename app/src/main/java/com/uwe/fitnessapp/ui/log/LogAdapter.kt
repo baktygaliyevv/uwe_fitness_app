@@ -14,11 +14,13 @@ class LogAdapter(
 ) : RecyclerView.Adapter<LogAdapter.LogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LogViewHolder {
+        // inflating a simple layout that just shows the date of a particular workout log
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_log_date, parent, false)
         return LogViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: LogViewHolder, position: Int) {
+        // setting the date text and adding a click listener to navigate to the detailed logs of that day
         val log = logs[position]
         holder.dateTextView.text = log.date
         holder.itemView.setOnClickListener {

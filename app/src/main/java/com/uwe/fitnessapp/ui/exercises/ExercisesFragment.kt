@@ -31,30 +31,33 @@ class ExercisesFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        // reading exercises data from a local json file
         val exercisesJson = readJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
 
         _binding = FragmentExercisesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        // creating a card for each exercise group, showing its image, title and exercise count
         for (group in exercisesData) {
             val drawable = readImagesFromAssets(requireContext(), group!!.image)
             val exerciseCount = getExercisesCount(exercisesData, group.type)
             addCard(group.type, drawable, exerciseCount) {
+                // on click, navigate to the specific exercise list for that group
                 findNavController().navigate(R.id.navigation_exercises_list, Bundle().apply {
                     putString("groupType", group.type)
                 })
             }
         }
 
-        enterTransition = MaterialFadeThrough().apply {
-        }
-        exitTransition = MaterialFadeThrough().apply {
-        }
+        // fade transition animations
+        enterTransition = MaterialFadeThrough()
+        exitTransition = MaterialFadeThrough()
 
         return root
     }
 
+    // inflating a card layout, setting its title, image, and count, then adding it to the container
     private fun addCard(title: String, iconDrawable: Drawable?, exerciseCount: Int, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.fragment_exercise_item, binding.cardsContainer, false)
 
