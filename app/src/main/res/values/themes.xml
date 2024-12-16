@@ -4,7 +4,6 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_blue</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Action bar color -->
@@ -12,6 +11,9 @@
         <item name="colorOnCardExtra">@color/white</item>
         <item name="colorCardExtra">@color/black</item>
         <item name="android:navigationBarColor">@color/white</item>
-        <item name="backgroundColor">#121212</item>
+        <item name="backgroundColor">?attr/colorOnPrimary</item>
+        <item name="colorOnBackground">?attr/colorOnPrimary</item>
+        <item name="colorOnSecondary">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
     </style>
 </resources>

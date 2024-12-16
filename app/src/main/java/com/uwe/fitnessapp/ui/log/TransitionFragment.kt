@@ -27,35 +27,37 @@ class TransitionFragment : Fragment() {
     ): View {
         _binding = FragmentTransitionBinding.inflate(inflater, container, false)
 
+        // grabbing exercise info from arguments
         val exerciseName = arguments?.getString("exerciseName") ?: "Exercise"
         val exerciseId = arguments?.getInt("exerciseId") ?: -1
         val exerciseGroupId = arguments?.getInt("exerciseGroupId") ?: -1
 
+        // on button click, validate inputs and save log data if valid
         binding.addLogButton.setOnClickListener {
             val weights = binding.weightsInput.text.toString().toFloatOrNull()
             val reps = binding.repsInput.text.toString().toIntOrNull()
 
             if (weights != null && reps != null) {
-                saveLogData(exerciseGroupId, exerciseId, exerciseName, weights, reps)
+                saveLogData(exerciseGroupId, exerciseId, weights, reps)
                 navigateToExerciseSets(exerciseGroupId, exerciseId, exerciseName)
             } else {
+                // showing errors if the user inputs invalid data
                 if (weights == null) binding.weightsInput.error = "Please enter a valid weight"
                 if (reps == null) binding.repsInput.error = "Please enter a valid number of reps"
             }
         }
 
-        enterTransition = MaterialFadeThrough().apply {
-        }
-        exitTransition = MaterialFadeThrough().apply {
-        }
+        // fade transition animations
+        enterTransition = MaterialFadeThrough()
+        exitTransition = MaterialFadeThrough()
 
         return binding.root
     }
 
+    // this function writes new log data to logs.json, or creates a new entry if needed
     private fun saveLogData(
         exerciseGroupId: Int,
         exerciseId: Int,
-        exerciseName: String,
         weights: Float,
         reps: Int
     ) {
@@ -88,6 +90,7 @@ class TransitionFragment : Fragment() {
 
             exerciseLog.sets.add(SetLog(weights.toString(), reps))
 
+            // writing updated logs back to the file
             file.writeText(Gson().toJson(logs))
 
         } catch (e: Exception) {
@@ -95,7 +98,7 @@ class TransitionFragment : Fragment() {
         }
     }
 
-
+    // navigating to the exercise sets fragment after successfully logging a new set
     private fun navigateToExerciseSets(groupId: Int, exerciseId: Int, exerciseName: String) {
         val bundle = Bundle().apply {
             putInt("exerciseGroupId", groupId)

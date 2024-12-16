@@ -23,6 +23,7 @@ navigationUiKtx = "2.8.2"
 speedometerAndroid = "1.0.0-ALPHA02"
 speedviewlib = "1.5.5"
 speedviewlibVersion = "1.5.3"
+media3CommonKtx = "1.5.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -46,6 +47,7 @@ material-v190 = { module = "com.google.android.material:material", version.ref =
 speedometer-android = { module = "com.github.anastr:speedometer-android", version.ref = "speedometerAndroid" }
 speedviewlib = { module = "com.github.anastr:speedviewlib", version.ref = "speedviewlib" }
 speedviewlib-v161 = { module = "com.github.anastr:speedviewlib", version.ref = "githubSpeedviewlibVersion" }
+androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version.ref = "media3CommonKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

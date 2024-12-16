@@ -30,20 +30,20 @@ class ExerciseListFragment : Fragment() {
     ): View {
         _binding = FragmentExerciseListBinding.inflate(inflater, container, false)
 
+        // setting the action bar title to the exercise group type we're currently viewing
         val groupType = arguments?.getString("groupType")
-
         (activity as? AppCompatActivity)?.supportActionBar?.title = groupType
 
+        // reading json data for exercises, then filtering by the selected group
         val exercisesJson = readJSON(requireContext(), "exercises.json")
         exercisesData = Gson().fromJson(exercisesJson, object : TypeToken<ArrayList<ExercisesGroup?>>() {}.type)
-
         val selectedGroup = exercisesData.find { it?.type == groupType }
 
-        enterTransition = MaterialFadeThrough().apply {
-        }
-        exitTransition = MaterialFadeThrough().apply {
-        }
+        // fade transition animations
+        enterTransition = MaterialFadeThrough()
+        exitTransition = MaterialFadeThrough()
 
+        // for each exercise in the selected group, we create a card and set a click listener
         selectedGroup?.exercises?.forEach { exercise ->
             val drawable = readImagesFromAssets(requireContext(), exercise.images[0])
             addCard(exercise.name, drawable) {
@@ -62,6 +62,7 @@ class ExerciseListFragment : Fragment() {
         return binding.root
     }
 
+    // this function inflates a card layout, sets title and image, and adds it to the container
     private fun addCard(title: String, iconDrawable: Drawable?, onClickAction: () -> Unit) {
         val cardView = layoutInflater.inflate(R.layout.item_exercise_list, binding.cardsContainer, false)
 
@@ -75,8 +76,6 @@ class ExerciseListFragment : Fragment() {
 
         binding.cardsContainer.addView(cardView)
     }
-
-
 
     override fun onDestroyView() {
         super.onDestroyView()

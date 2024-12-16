@@ -32,19 +32,20 @@ class VideoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // grabbing the video url from arguments
         videoUrl = arguments?.getString("video")
-        exoPlayer = ExoPlayer.Builder(requireContext()).build()
 
+        // creating an ExoPlayer instance to handle video playback
+        exoPlayer = ExoPlayer.Builder(requireContext()).build()
         val playerView = binding.playerView
         playerView.player = exoPlayer
 
+        // adding a listener to handle video size changes and errors
         exoPlayer!!.addListener(object : Player.Listener {
             override fun onVideoSizeChanged(videoSize: VideoSize) {
                 super.onVideoSizeChanged(videoSize)
-                val width = videoSize.width
-                val height = videoSize.height
-                val aspectRatio = width.toFloat() / height.toFloat()
-
+                // adjusting scale based on aspect ratio to prevent stretching
+                val aspectRatio = videoSize.width.toFloat() / videoSize.height.toFloat()
                 if (aspectRatio > 1) {
                     playerView.scaleX = 1.5f
                     playerView.scaleY = 1.5f
@@ -53,19 +54,19 @@ class VideoFragment : Fragment() {
                     playerView.scaleY = 1.1f
                 }
             }
+
             override fun onPlayerError(error: PlaybackException) {
                 super.onPlayerError(error)
+                // showing a toast and navigating back if the video fails to load
                 Toast.makeText(requireContext(), "Error loading video: ${error.message}", Toast.LENGTH_LONG).show()
                 findNavController().popBackStack()
             }
         })
 
+        // if we have a valid url, we set up the player and start playback
         if (!videoUrl.isNullOrEmpty()) {
             val uri = Uri.parse(videoUrl)
-            val mediaItem = MediaItem.Builder()
-                .setUri(uri)
-                .build()
-
+            val mediaItem = MediaItem.Builder().setUri(uri).build()
             exoPlayer?.apply {
                 setMediaItem(mediaItem)
                 prepare()

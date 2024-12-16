@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="16dp"
-        app:cardBackgroundColor="?attr/colorPrimary"
+        app:cardBackgroundColor="?attr/colorOnSecondary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -26,38 +26,43 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="0dp"
                 android:layout_height="56dp"
-                android:layout_marginEnd="8dp"
                 android:layout_weight="1"
-                app:boxBackgroundColor="@color/white"
-                app:boxBackgroundMode="filled">
+                android:layout_marginEnd="8dp"
+                app:boxBackgroundMode="filled"
+                app:boxBackgroundColor="?attr/colorOnBackground"
+                app:boxStrokeColor="?attr/colorButtonNormal"
+                android:hint="Weights">
+
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/weightsInput"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:hint="Weights"
                     android:inputType="numberDecimal"
-                    android:textColor="@android:color/black"
+                    android:textColor="?attr/colorCardExtra"
+                    android:textColorHint="@color/white"
                     android:textSize="16sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="0dp"
                 android:layout_height="56dp"
-                android:layout_marginEnd="8dp"
                 android:layout_weight="1"
-                app:boxBackgroundColor="@color/white"
-                app:boxBackgroundMode="filled">
+                android:layout_marginEnd="8dp"
+                app:boxBackgroundMode="filled"
+                app:boxBackgroundColor="?attr/colorOnBackground"
+                app:boxStrokeColor="?attr/colorButtonNormal"
+                android:hint="Reps">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/repsInput"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:hint="Reps"
                     android:inputType="number"
-                    android:textColor="@android:color/black"
+                    android:textColor="?attr/colorCardExtra"
+                    android:textColorHint="?attr/colorCardExtra"
                     android:textSize="16sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,11 +70,11 @@
                 android:id="@+id/addLogButton"
                 android:layout_width="56dp"
                 android:layout_height="match_parent"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="?attr/colorOnBackground"
                 app:icon="@drawable/ic_add"
                 app:iconGravity="textStart"
                 app:iconPadding="0dp"
-                app:iconTint="?attr/colorPrimary" />
+                app:iconTint="?attr/colorButtonNormal"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
