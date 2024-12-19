@@ -139,6 +139,7 @@ class PlansFragment : Fragment() {
 
                     val bundle = Bundle().apply {
                         putParcelable("plan", planObject)
+                        putString("planName", name)
                     }
                     findNavController().navigate(R.id.navigation_plan_detail, bundle)
                 }
@@ -181,6 +182,7 @@ class PlansFragment : Fragment() {
 
                     val bundle = Bundle().apply {
                         putParcelable("plan", planObject)
+                        putString("planName", name)
                     }
                     findNavController().navigate(R.id.navigation_plan_detail, bundle)
                 }

@@ -1,6 +1,7 @@
 package com.uwe.fitnessapp.ui.tools.components.heartrate
 
 import android.os.Bundle
+import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,6 +27,20 @@ class HeartRateFragment : Fragment() {
         binding.calculateButton.setOnClickListener {
             calculateHeartRate() // perform heart rate calculation
         }
+
+        // set detailed explanation about the calculator and zones
+        binding.explanationText.text = Html.fromHtml("""
+            <p>This calculator helps you determine your heart rate zones based on your age.</p>
+            <p>Each zone represents a range of heart rates and corresponds to a specific level of physical activity intensity:</p>
+                
+            <b>• Maximum VO2 Max Zone (90% - 100%)</b>: Suitable for short bursts of maximum effort. Ideal for athletes.<br>
+            <b>• Hard Anaerobic Zone (80% - 90%)</b>: Improves endurance and high-speed performance.<br>
+            <b>• Moderate Aerobic Zone (70% - 80%)</b>: Enhances cardiovascular fitness and increases stamina.<br>
+            <b>• Light Fat Burn Zone (60% - 70%)</b>: Best for burning fat and maintaining fitness.<br>
+            <b>• Very Light Warm Up Zone (50% - 60%)</b>: Ideal for warming up and cooling down.
+
+            <p>Use this information to plan your workouts effectively.</p>
+        """, Html.FROM_HTML_MODE_LEGACY)
 
         // fade transition animations
         enterTransition = MaterialFadeThrough()

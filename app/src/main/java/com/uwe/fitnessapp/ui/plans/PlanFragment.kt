@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -33,6 +34,8 @@ class PlanFragment : Fragment() {
         arguments?.let {
             plan = it.getParcelable("plan") ?: throw IllegalStateException("Plan must be provided")
         }
+        val planName = arguments?.getString("planName")
+        (activity as? AppCompatActivity)?.supportActionBar?.title = planName
 
         // read and parse exercises.json to load exercise data
         val exercisesJson = readJSON(requireContext(), "exercises.json")
