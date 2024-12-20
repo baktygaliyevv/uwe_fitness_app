@@ -33,11 +33,11 @@ class HeartRateFragment : Fragment() {
             <p>This calculator helps you determine your heart rate zones based on your age.</p>
             <p>Each zone represents a range of heart rates and corresponds to a specific level of physical activity intensity:</p>
                 
-            <b>• Maximum VO2 Max Zone (90% - 100%)</b>: Suitable for short bursts of maximum effort. Ideal for athletes.<br>
-            <b>• Hard Anaerobic Zone (80% - 90%)</b>: Improves endurance and high-speed performance.<br>
-            <b>• Moderate Aerobic Zone (70% - 80%)</b>: Enhances cardiovascular fitness and increases stamina.<br>
-            <b>• Light Fat Burn Zone (60% - 70%)</b>: Best for burning fat and maintaining fitness.<br>
-            <b>• Very Light Warm Up Zone (50% - 60%)</b>: Ideal for warming up and cooling down.
+            <b>• Maximum VO2 Max Zone (90% - 100%)</b>: This zone represents the peak effort, ideal for high-intensity activities like sprints or interval training to build maximum performance and speed.<br>
+            <b>• Hard Anaerobic Zone (80% - 90%)</b>: Focused on improving endurance and high-speed performance, this zone is common during activities like running at a fast pace or cycling on challenging terrains.<br>
+            <b>• Moderate Aerobic Zone (70% - 80%)</b>: Enhances cardiovascular endurance and stamina, often achieved during steady-state cardio workouts like jogging or swimming.<br>
+            <b>• Light Fat Burn Zone (60% - 70%)</b>: Optimal for burning fat and maintaining fitness, typically reached during brisk walking or light cycling.<br>
+            <b>• Very Light Warm Up Zone (50% - 60%)</b>: Ideal for warming up or cooling down, commonly experienced during light stretching or slow walking.
 
             <p>Use this information to plan your workouts effectively.</p>
         """, Html.FROM_HTML_MODE_LEGACY)
