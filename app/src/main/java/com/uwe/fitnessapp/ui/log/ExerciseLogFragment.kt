@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.transition.MaterialFadeThrough
@@ -21,6 +22,7 @@ class ExerciseLogFragment : Fragment() {
         _binding = FragmentExerciseLogBinding.inflate(inflater, container, false)
 
         val selectedDate = arguments?.getString("date") ?: return binding.root
+        (activity as? AppCompatActivity)?.supportActionBar?.title = selectedDate
 
         val logsJson = LogUtils.readLogs(requireContext())
         val selectedLog = logsJson.find { it.date == selectedDate }
