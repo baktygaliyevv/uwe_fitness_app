@@ -89,7 +89,6 @@
     <fragment
         android:id="@+id/navigation_exercise_log"
         android:name="com.uwe.fitnessapp.ui.log.ExerciseLogFragment"
-        android:label="Exercises"
         tools:layout="@layout/fragment_exercise_log">
         <argument
             android:name="date"
