@@ -21,7 +21,7 @@ class CaloriesFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentCaloriesBinding.inflate(inflater, container, false)
 
         // define activity levels and corresponding activity factors for calculations
