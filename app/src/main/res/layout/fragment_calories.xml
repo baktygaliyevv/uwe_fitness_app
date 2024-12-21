@@ -42,11 +42,13 @@
                 android:id="@+id/radioButtonMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="?attr/colorPrimary"
                 android:text="Male" />
             <RadioButton
                 android:id="@+id/radioButtonFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="?attr/colorPrimary"
                 android:text="Female"
                 />
         </RadioGroup>
