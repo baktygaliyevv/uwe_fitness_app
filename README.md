@@ -26,6 +26,18 @@ The UWE Fitness App offers the following core functionalities:
 - Heart Rate Zones: Calculates target heart rate zones for various intensities based on the user’s age.
 
 ## Demo
+1. Exercises
+   ![image](https://github.com/user-attachments/assets/7bacaf5a-594c-4063-b08d-48d59a1180a5)
+   ![image](https://github.com/user-attachments/assets/92ff15cc-d38d-4d40-8894-a32589d5a92b)
+
+2. Plans
+   ![image](https://github.com/user-attachments/assets/925e3aa3-46fd-4374-8f80-2a9094ccb781)
+
+3. Logs
+   ![image](https://github.com/user-attachments/assets/8888ac10-bab9-44f8-91ec-6084f94b4265)
+
+4. Tools
+   ![image](https://github.com/user-attachments/assets/b9ad8f34-7498-4db0-a6d7-cecfba985489)
 
 ## Repo Structure
 The project follows a modular structure:
